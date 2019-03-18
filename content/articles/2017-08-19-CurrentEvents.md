@@ -13,4 +13,4 @@ I care enough to ask about the the incident and, once informed, to partake in a 
 
 In fact, I've noticed a general theme in my life: a distaste for current events. Along with the news, I stay away from politics, I don't follow sports, and I'm largely out of tune with pop-culture. These activies may feel like more sophisticated forms of gossip, but they're still gossip. And since I never feel like a better person after going out of my way to partake in them, that's always been a sign for me not to actively seek it out.
 
-That's not to say that I'm completely uninformed about the world. The beauty of it is, that since most people are so entralled with current events, the really important stuff you can't avoid. So I end up finding out the headlines eventually, just not during my morning coffee. 
+That's not to say that I'm completely uninformed about the world. The beauty of it is, since most people are so entralled with current events, the really important stuff you can't avoid. So I end up finding out the headlines eventually, just not during my morning coffee. 

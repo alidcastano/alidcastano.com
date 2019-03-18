@@ -8,7 +8,7 @@ What undergraduate wouldn't prefer and feel more capable studying the intricacie
 
 Passion is a lovely affair---until reality slaps you in the face and you realize how ill-equipped you are to make it on your own in life.
 
-The effects of passion became clear when I tried to start my first startup. A couple months in, my co-founders and I sat down to discuss equity. One was a programmer. The other a good communicator. As for me? Frankly, I couldn't describe what I brought to the table---because I didn't bring anything concrete. Without a base of concrete skills, all I was, was a passionate idea guy; as rare and valuable as the average student.
+The effects of passion became clear when I tried to start my first startup. A couple months in, my co-founders and I sat down to discuss equity. One was a programmer. The other a good communicator. As for me? An introvert unable to describe what he brought to the table---because I didn't bring anything concrete. Without a base of concrete skills, all I was, was a passionate idea guy; as rare and valuable as the average student.
 
 From that point forward, I made the resolution to use any remaining time, inside or outside of class, to become useful---to develop concrete skills. Only then, would I worry about passion.
 
