@@ -1,3 +1,8 @@
+- name: Studbits
+  pitch: a note-taking app that helps you learn
+  created: 2019-01-01
+  link: https://studbits.com/
+  weight: 7
 
 - name: Nuxtent
   pitch: seamlessly use content files in your Nuxt.js sites
