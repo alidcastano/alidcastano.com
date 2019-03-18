@@ -58,10 +58,16 @@ export default {
   transform-origin: 50% 50%
 
 .site-container
+  display: flex
+  flex-direction: column
   padding: 0 1rem
   margin: 0 auto
+  min-height: 100vh
   @media (min-width: $bp-tablet)
     margin-left: 3rem
+
+.site-content 
+  flex: 1
 
 .landing-container
   height: 90vh

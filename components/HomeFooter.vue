@@ -12,13 +12,9 @@ div.home-footer
 
 .footer-message
   border-top: 2px dashed #eff3f5
-  position: relative
-  top: 1rem
-  padding-top: .75rem
-  padding-left: 1rem
-  padding-right: 1rem
+  padding-top: 1rem
   max-width: 95%
-  font-size: .85rem
+  font-size: .8rem
   @media (min-width: $bp-tablet)
     font-size: 1rem
   a
