@@ -2,6 +2,18 @@
   pitch: a note-taking app that helps you learn
   created: 2019-01-01
   link: https://studbits.com/
+  weight: 10
+
+- name: Rogue.js 
+  pitch: the "nearly invisible" way to server-render React apps
+  created: 2018-05-18
+  link:  https://github.com/alidcastano/rogue.js
+  weight: 8
+
+- name: Druid.js
+  pitch: the "shapeshifting" API framework for Node.js+Graphql apps
+  created: 2018-07-23
+  link: https://github.com/alidcastano/druid.js
   weight: 7
 
 - name: Nuxtent
