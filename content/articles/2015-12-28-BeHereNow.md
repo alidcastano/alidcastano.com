@@ -16,7 +16,7 @@ And so, the purge began. I took down my posters. I gave away my sofa and my desk
 
 But I wasn't. All that was left in my room were white walls, a bed, and a coffee table. I didn't feel any more Zen, nor did my room look it. My room looked, well, empty. Will people who come in think I'm poor? Or boring? I felt naked. And stupid. The stark contrast made me realize how tied my sense of self was to my belongings.
 
-To fill my gap of disillusionment, I went on Amazon. I intended to buy a desk and an armchair. I figure that would help make my room look more Zen. But I got carried away with the search bar and 1-click purchases, the same way a distraught lover gets carried away with a bucket of ice-cream; and I ended up with a small table fountain, a tapestry, and a zabuton.
+To fill my gap of disillusionment, I went on Amazon. I intended to buy a desk and an armchair. I figure that would help make my room look more Zen. But the same way a distraught lover gets carried away with a bucket of ice-cream, I got carried away with the 1-click purchases, and ended up with a small table fountain, a tapestry, and a zabuton as well.
 
 My room, now, felt more Zen. Sure. But I felt like an impostor. By focusing all my effort on the external result (emptying out my room) rather than the internal process (letting go of attachment), I lost sight of what I set out to accomplish (overcoming my dependence on the material world).
 
