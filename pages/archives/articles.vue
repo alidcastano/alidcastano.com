@@ -6,6 +6,7 @@ ContentContainer.article-archives
       ul.article-list
         li.article-preview(v-for="article in articles")
           nuxt-link(:to="article.path") {{ article.title }}
+          p.article-description(v-if="article.description") {{ article.description }}
 </template>
 
 <script>
@@ -38,4 +39,7 @@ export default {
 <style lang="sass">
 .article-group
   list-style-type: none
+
+.article-preview
+  margin-bottom: 12px
 </style>

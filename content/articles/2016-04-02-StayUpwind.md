@@ -1,5 +1,7 @@
 ---
-title: The best life advice I ever received
+title: "\"Stay Upwind\""
+
+description: The best life advice I ever received.
 
 image: stay-upwind.jpg
 

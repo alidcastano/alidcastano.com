@@ -6,6 +6,7 @@ PreviewContainer(
   ul.articles-container
     li.article-item(v-for="article in articles")
       nuxt-link(:to="article.path") {{ article.title }}
+      p.article-description(v-if="article.description") {{ article.description }}
 </template>
 
 <script>
@@ -22,3 +23,16 @@ export default {
   }
 }
 </script>
+
+<style lang="sass">
+.articles-container
+  margin-bottom: 24px;
+
+.article-item
+  margin-bottom: 12px
+
+.article-description
+  font-size: .9rem
+  opacity: .9
+  margin-bottom: 0
+</style>

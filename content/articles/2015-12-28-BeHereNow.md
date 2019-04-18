@@ -1,6 +1,7 @@
 ---
-title: |
-  Stop rushing or pretending: A lesson from my first attempt at minimalism
+title: Stop rushing or pretending
+
+description: A lesson from my first attempt at minimalism.
 
 image: slow-down.jpg
 
