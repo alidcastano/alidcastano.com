@@ -11,11 +11,13 @@ quote: |
     - Paul Graham
 ---
 
-In the fall semester of my sophomore year, my friend and I got this random food app idea and decided to start a startup. We spent months developing the idea, working on the business plan and preparing the pitch deck. We came to a point where we felt ready to pitch to investors--only to confront the fact that we didn't have a product. Only well-thought out idea, whatever that's worth.
+In the fall semester of my sophomore year, my friend and I got this random food app idea and decided to start a startup. We spent months developing the idea, working on the business plan and preparing the pitch deck. We came to a point where we felt ready to pitch to investors--only to confront the fact that we didn't have a product. Only well-thought out idea.
 
-My friend and I spent those next three weeks trying to find a technical co-founder. While we were eventually able to convince another friend to join us, at that point, the enthusiasm was lost and idea eventually fizzled out. I came out of the experience with the uncomfortable realization: as a non-technical entreprenuer, the largest factor to my success was entirely dependent on someone else.
+So we spent the next three weeks trying to find a technical co-founder. We were eventually able to convince another friend to join us but, at that point, the enthusiasm was lost. The idea eventually fizzled out. 
 
-"Should I learn to code?" It was the first time I had entertained the question. The only thing I knew about programming courses was how hard and time-consuming it was, because everyone it CIS classes complained about it. And all I could picture was the kid who started playing with computers when he was 9. I could never compete with him.  And lingering in the back of my mind was the fact that I didn't take calculus, ergo, I sucked at math and programming was all about math.
+I came out of that experience with the uncomfortable realization: as a non-technical entreprenuer, the largest factor to my success was entirely dependent on someone else.
+
+"Should I learn to code?" It was the first time I had entertained the question. The only thing I knew about programming courses was how hard and time-consuming it was, because everyone it CIS classes complained about it. And all I could picture was the kid who started playing with computers when he was 9. I could never compete with him.  And lingering in the back of my mind was the fact that I didn't take calculus, ergo, I sucked at math and programming, I thought, was all about math.
 
 Amongst these concerns, was the lingering thought of a passage I read in Paul Graham's [What You'll Wish You'd Known](http://www.paulgraham.com/hs.html):
 
