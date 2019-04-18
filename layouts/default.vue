@@ -3,8 +3,8 @@ div.site-container(:class="layoutStyle")
   SiteHeader
   div.site-content
     AccordionNav(v-if="isLanding" :menu="menu")
-      li.extra-menu-item
-        button.signup-button(@click="toggleSignup()") Subscribe
+      // li.extra-menu-item
+      // button.signup-button(@click="toggleSignup()") Subscribe
     div.main
       nuxt
   HomeFooter.home-footer(v-if="isLanding")
