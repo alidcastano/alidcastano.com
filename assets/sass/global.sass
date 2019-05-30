@@ -7,3 +7,19 @@
   transition: opacity .5s
 .page-enter, .page-leave-active
   opacity: 0
+
+// --------------------
+// Theme
+// --------------------
+ul
+  list-style: none
+  li
+    position: relative
+  li::before
+    content: "\2022"
+    font-size: 1.25rem
+    color: #6a727c
+    font-weight: bold
+    position: absolute;
+    top: -.1em
+    left: -1em

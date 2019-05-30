@@ -1,18 +1,19 @@
 <template lang="pug">
 ul.accordion-nav(:style="accordionStyle")
   li.nav-item(v-for="path in menu")
-    nuxt-link.nav-link(:to="path" exact) {{ path | toTitle }}
+    nuxt-link.nav-link(:to="path" exact) {{ (path === '/' ? index : path) | toTitle }}
   slot
 </template>
 
 <script>
 export default {
   props: {
-    menu: { type: Array, required: true }
+    menu: { type: Array, required: true },
+    index: { type: String, required: true }
   },
   computed: {
     accordionStyle () {
-      if (this.$route.path === '/') {
+      if (this.menu.indexOf(this.$route.path) === -1) {
         return {
           'border-top': '2px dashed #eff3f5',
           'border-bottom': '2px dashed #eff3f5'
@@ -35,6 +36,9 @@ export default {
 
 <style lang="sass">
 @import "../assets/sass/util"
+
+.accordion-nav li::before 
+  display: none 
 
 .accordion-nav
   width: 98%

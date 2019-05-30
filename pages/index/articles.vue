@@ -3,7 +3,7 @@ PreviewContainer(
   title="What I've been thinking about"
   :seeAll="{ path: '/archives/articles', label: 'See all articles' }"
 )
-  ul.articles-container
+  ul.list.articles-container
     li.article-item(v-for="article in articles")
       nuxt-link(:to="article.path") {{ article.title }}
       p.article-description(v-if="article.description") {{ article.description }}

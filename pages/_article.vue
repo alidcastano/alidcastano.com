@@ -2,10 +2,11 @@
 ContentContainer
   div.article-lead(slot="lead")
     h1.article-title {{ article.title }}
+    h3(v-if="article.description").article-description {{ article.description }}
 
   section.article-body(slot="content" :style="overrideMargin")
     div(v-html="article.body")
-    ShareWidgets(:article="article")
+    // ShareWidgets(:article="article")
 
   div.article-closer(slot="closer")
     img.article-image(v-if="article.image" :src="`/img/articles/${article.image}`")
@@ -33,8 +34,8 @@ export default {
   },
 
   components: {
-    ContentContainer,
-    ShareWidgets: () => import('~/components/ShareWidgets')
+    ContentContainer
+    // ShareWidgets: () => import('~/components/ShareWidgets')
   }
 }
 </script>
@@ -43,22 +44,33 @@ export default {
 @import "../assets/sass/util"
 
 .article-lead
-  margin: 1rem auto 1.75rem auto
-.article-title
-  font-size: 1.6rem
-  margin-top: 0
-  color: #45606e
-  @media (min-width: $bp-tablet)
-    font-size: 2.125rem
+  margin-top: -12px
+  margin-bottom: 1.75rem
+  .article-title
+    font-size: 1.6rem
+    color: #45606e
+    margin-bottom: 0
+    @media (min-width: $bp-tablet)
+      font-size: 2.125rem
+  .article-description
+    font-size: 1.125rem
+    margin-top: 4px
+    color: #9fa5ad
+    font-weight: normal
+    font-style: italic
+    @media (min-width: $bp-tablet)
+      font-size: 1rem
 .article-body
   margin-top: -.6rem
+  font-family: Spectral,serif;
 .article-closer
+  margin-top: 1rem
   margin-bottom: 3rem
 .article-image
   margin: .5rem auto 1rem auto
 .article-quote
   max-width: 85%
   margin: 0 auto
-  color: #737373
+  color: #838b95
   font-style: italic
 </style>

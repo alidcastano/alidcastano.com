@@ -2,14 +2,14 @@
 div.site-container(:class="layoutStyle")
   SiteHeader
   div.site-content
-    AccordionNav(v-if="isLanding" :menu="menu")
+    AccordionNav(v-if="isLanding" :menu="menu" index="/articles")
       // li.extra-menu-item
       // button.signup-button(@click="toggleSignup()") Subscribe
     div.main
       nuxt
   HomeFooter.home-footer(v-if="isLanding")
   //- hidden from page until toggled
-  SignupForm(v-if="isLanding" :display="signupDisplay" :toggle="toggleSignup")
+  // SignupForm(v-if="isLanding" :display="signupDisplay" :toggle="toggleSignup")
 </template>
 
 <script>
@@ -18,12 +18,12 @@ import AccordionNav from '~/components/AccordionNav'
 
 export default {
   data: () => ({
-    menu: ['/articles', '/projects', '/now', '/about', '/contact'],
+    menu: ['/', '/projects', '/now', '/about', '/contact'],
     signupDisplay: 'none'
   }),
   computed: {
     isLanding () {
-      return ['/', ...this.menu].indexOf(this.$route.path) > -1
+      return this.menu.indexOf(this.$route.path) > -1
     },
     layoutStyle () {
       return this.isLanding ? 'landing-container' : 'content-container'
@@ -60,14 +60,15 @@ export default {
 .site-container
   display: flex
   flex-direction: column
-  padding: 0 1rem
-  margin: 0 auto
+  padding: 0
+  margin: 0
   min-height: 100vh
   @media (min-width: $bp-tablet)
-    margin-left: 3rem
+    margin-left: 120px
 
 .site-content 
   flex: 1
+  margin-top: 12px
 
 .landing-container
   height: 90vh
@@ -91,6 +92,7 @@ export default {
   outline: none
   cursor: pointer
 
-.landing-container .main
-  padding-left: .5rem
+.main
+  padding-left: 1rem
+  padding-right: 1rem
 </style>
