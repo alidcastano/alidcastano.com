@@ -8,13 +8,11 @@ div.content-container
     nuxt-link.back-home(to="/") Back Home
 </template>
 
-<style lang="sass">
+<style lang="sass" scope>
 @import "../assets/sass/util"
 
 .content-container
   max-width: $w-content
-  .content 
-    padding: 1em
   @media (min-width: $bp-tablet)
     max-width: $w-content + 15rem
     .content
@@ -23,8 +21,7 @@ div.content-container
       margin: 0
 
 .content-footer
-  margin-bottom: 2rem
-  margin-left: -1rem
+  margin-bottom: 4rem
 .back-home
   &:before
     content: "← "

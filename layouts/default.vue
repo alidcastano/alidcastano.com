@@ -48,7 +48,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scope>
 @import "../assets/sass/util.sass"
 
 .page-enter-active, .page-leave-active
@@ -68,7 +68,7 @@ export default {
 
 .site-content 
   flex: 1
-  margin-top: 12px
+  margin-top: 16px
 
 .landing-container
   height: 90vh

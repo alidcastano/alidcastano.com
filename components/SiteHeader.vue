@@ -14,8 +14,6 @@ export default {
 
 .site-header
   display: block
-  width: 100%
-  margin-top: .5rem
   text-align: center
   @media (min-width: $bp-desktop)
     margin-left: .25rem
@@ -25,11 +23,12 @@ export default {
   @include dim-effect(.7, 1)
   border-bottom: 2px solid $primary-light
   margin-top: .5rem
-  margin-left: -1rem
-  margin-right: -1rem
   padding-bottom: .25rem
-  padding-left: 1.25rem
+  padding-left: 2rem
   text-align: left
+  @media (min-width: $bp-tablet)
+    margin-left: -1rem
+    margin-right: -1rem
 
 .masthead
   display: inline-block

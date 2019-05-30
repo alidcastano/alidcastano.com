@@ -14,8 +14,11 @@ div.home-footer
   border-top: 2px dashed #eff3f5
   padding-top: 1rem
   max-width: 95%
+  margin: auto
   font-size: .8rem
   @media (min-width: $bp-tablet)
+    margin: 0
+    padding-bottom: 1.5rem
     font-size: 1rem
   a
     text-decoration: underline
