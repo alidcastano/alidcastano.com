@@ -23,7 +23,7 @@ export default {
 
   computed: {
     overrideMargin () {
-      if (this.article.title.length < 30) return { 'margin-left': '-1rem' }
+      if (this.article.title.length > 30) return { 'margin-left': '1rem' }
     }
   },
 
