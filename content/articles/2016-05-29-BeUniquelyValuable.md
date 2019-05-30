@@ -6,7 +6,7 @@ description: What I learned about following my passion.
 
 There's this aura in college that you should first study what you like---one that many students are suffocated by. I only know, because I've gotten a good whiff of its effects myself.
 
-What undergraduate wouldn't feel more capable studying the intricacies of persuasion, willpower, and Marshmallow Tests more than the idea of trying to implementing a chat server? Naturally, when given the decision, I drifted towards studying psychology rather than programming; I was more "passionate" about it.
+What undergraduate wouldn't feel more capable studying the intricacies of persuasion, willpower, and Marshmallow Tests more than the idea of trying to implementing a chat server? Naturally, when given the decision, I drifted towards studying psychology rather than programming; I was more passionate about it.
 
 The effects of passion became clear when I tried to start my first startup. A couple months in, my co-founders and I sat down to discuss equity. One was a programmer. The other a good communicator. As for me? An introvert unable to describe what he brought to the table---because I didn't bring anything concrete. Without a base of concrete skills, all I was, was a passionate idea guy; as rare and valuable as the average student.
 

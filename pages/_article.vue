@@ -10,7 +10,7 @@ ContentContainer
 
   div.article-closer(slot="closer")
     img.article-image(v-if="article.image" :src="`/img/articles/${article.image}`")
-    p(v-if="article.quote").article-quote {{ article.quote }}
+    p(v-if="article.quote" v-html="article.quote").article-quote
 </template>
 
 <script>
@@ -40,32 +40,34 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scope>
 @import "../assets/sass/util"
 
 .article-lead
-  margin-top: -12px
-  margin-bottom: 1.75rem
+  margin-top: 16px
+  margin-bottom: 1.25rem
+  width: 100%
+  @media (min-width: $bp-tablet)
+    margin-bottom: 1.75rem
   .article-title
     font-size: 1.6rem
     color: #45606e
-    margin-bottom: 0
+    margin: 0
     @media (min-width: $bp-tablet)
       font-size: 2.125rem
   .article-description
-    font-size: 1.125rem
+    font-size: 1rem
     margin-top: 4px
     color: #9fa5ad
     font-weight: normal
     font-style: italic
     @media (min-width: $bp-tablet)
-      font-size: 1rem
+      font-size: 1.125rem
 .article-body
-  margin-top: -.6rem
   font-family: Spectral,serif;
 .article-closer
-  margin-top: 1rem
-  margin-bottom: 3rem
+  margin-top: 3rem
+  margin-bottom: 4rem
 .article-image
   margin: .5rem auto 1rem auto
 .article-quote
@@ -73,4 +75,13 @@ export default {
   margin: 0 auto
   color: #838b95
   font-style: italic
+  a 
+    color: #838b95
+    text-decoration: underline
+  span 
+    display: block 
+    margin-top: .25rem
+    text-align: right
+    position: relative 
+    right: 2rem
 </style>
