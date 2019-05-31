@@ -71,17 +71,19 @@ export default {
 .article-image
   margin: .5rem auto 1rem auto
 .article-quote
-  max-width: 85%
   margin: 0 auto
   color: #838b95
   font-style: italic
+  @media (min-width: $bp-tablet)
+    max-width: 85%
   a 
     color: #838b95
     text-decoration: underline
   span 
     display: block 
     margin-top: .25rem
-    text-align: right
-    position: relative 
-    right: 2rem
+    @media (min-width: $bp-tablet)
+      text-align: right
+      position: relative 
+      right: 2rem
 </style>

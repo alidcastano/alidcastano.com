@@ -64,7 +64,11 @@ export default {
   margin: 0
   min-height: 100vh
   @media (min-width: $bp-tablet)
+    margin-left: 24px 
+    margin-right: 24px
+  @media (min-width: $bp-desktop)
     margin-left: 120px
+    margin-right: 120px
 
 .site-content 
   flex: 1

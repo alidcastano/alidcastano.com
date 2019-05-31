@@ -41,28 +41,34 @@ export default {
   display: none 
 
 .accordion-nav
-  width: 98%
-  margin-top: -.25rem
+  width: 95%
+  max-width: 520px
   margin-bottom: 1.25rem
-  padding-left: 0
-  padding-top: .5rem
   padding-bottom: .5rem
+  padding-left: .25rem
   list-style-type: none
-  text-align: center
-  @media (min-width: $bp-desktop)
-    width: 42%
-    padding-left: .25rem
-    margin-top: .75rem
-    text-align: left
+  margin-top: 4px
+  text-align: left
+  @media (max-width: 520px)
+    width: 95%
+    margin: 0 auto 
+  @media (min-width: $bp-tablet)
+    padding-left: 1rem
+    width: 70%
+    margin-top: 12px
 
 .nav-item
+  padding-left: 0
   display: inline-block
   text-align: center
   .nav-link
-    padding: .7rem .35rem
+    position: relative 
+    bottom: -1px
+    padding: .7rem .5rem
     text-decoration: none
     font-size: .9rem
     @media (min-width: $bp-tablet)
+      position: static
       font-size: 1.025rem
       padding: .7rem
   .nuxt-link-active
