@@ -1,12 +1,14 @@
 <template lang="pug">
 ContentContainer
-  ul.unlist.article-archive(slot="content")
-    li.article-group(v-for="[date, articles] in articlesByDate")
-      h3.group-label {{ date }}
-      ul.article-list.list
-        li.article-preview(v-for="article in articles")
-          nuxt-link(:to="article.path") {{ article.title }}
-          p.article-description(v-if="article.description") {{ article.description }}
+  div.article-archive(slot="content")
+    h3 Articles:
+    ul.unlist
+      li.article-group(v-for="[date, articles] in articlesByDate")
+        h3.group-label {{ date }}
+        ul.article-list.list
+          li.article-preview(v-for="article in articles")
+            nuxt-link(:to="article.path") {{ article.title }}
+            p.article-description(v-if="article.description") {{ article.description }}
 </template>
 
 <script>

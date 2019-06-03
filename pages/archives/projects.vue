@@ -1,11 +1,11 @@
 <template lang="pug">
 ContentContainer.project-archives
   div(slot="content")
-    h3 Open Source Projects
-    ul.project-list
+    h3 Projects:
+    ul.project-list.unlist
       li(v-for="[created, projects] in projectsByCreated")
         h3.group-label {{ created }}
-        ul.project-list
+        ul.project-list.list
           li.project-preview(v-for="project in projects")
             a(:href="project.link" target="_blank") {{ project.name }}
             p {{ project.pitch}}
