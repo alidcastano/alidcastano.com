@@ -3,13 +3,12 @@ div.site-container(:class="layoutStyle")
   SiteHeader
   div.site-content
     AccordionNav(v-if="isLanding" :menu="menu" index="/articles")
-      // li.extra-menu-item
-      // button.signup-button(@click="toggleSignup()") Subscribe
+      li.extra-menu-item
+        button.signup-button(@click="toggleSignup()") Subscribe
     div.main
       nuxt
   HomeFooter.home-footer(v-if="isLanding")
-  //- hidden from page until toggled
-  // SignupForm(v-if="isLanding" :display="signupDisplay" :toggle="toggleSignup")
+  SignupForm(v-if="isLanding" :display="signupDisplay" :toggle="toggleSignup")
 </template>
 
 <script>

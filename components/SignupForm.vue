@@ -3,23 +3,41 @@ div.signup-container(:class="formAnimationClass")
   button.close-form(@click="closeForm") x
   h2 Join My Mailing List
   p Sign up to receive occasional updates.
-  form.signup-form(
-    action="//alidcastano.us16.list-manage.com/subscribe/post?u=922c2f0ea20e1c7be81225cf7&amp;id=9e22e0cf16"
-    method="post"
-    target="_blank"
-    novalidate
-  )
-    input.signup-field(type="text" placeholder="Your Name" name="FNAME" value="" )
-    input.signup-field(type="email" placeholder="Your Email" name="EMAIL" value="" )
-    button.send-button(type="submit" name="subscribe") Sign up
+  div.signup-form
+    p.error(v-if="errors.length > 0") {{ errors[0] }}
+    input.signup-field(
+      type="text" placeholder="Your Name" name="name" v-model="firstName" :disabled="!!result"
+    )
+    input.signup-field(
+      type="email" placeholder="Your Email" name="email" v-model="email" :disabled="!!result"
+    )
+    div 
+      p.success(v-if="result && result === 'sucess'") Email received - thanks for subscribing!
+      p.error(v-else-if="result && result === 'failure'") Error occurred. Please try again later.
+      button.send-button(v-else v-on:click="submitForm") Sign up
 </template>
 
 <script>
-
-export default{
+export default {
   props: {
-    display: { type: String, required: true },
+    display: { type: String, srequired: true },
     toggle: { type: Function, required: true }
+  },
+  data () {
+    return {
+      email: '',
+      firstName: '',
+      errors: [],
+      result: null
+    }
+  },
+  watch: {
+    email: function (oldValue, newValue) {
+      this.errors = []
+    },
+    firstName: function (oldValue, newValue) {
+      this.errors = []
+    }
   },
   computed: {
     formAnimationClass () {
@@ -28,6 +46,29 @@ export default{
     }
   },
   methods: {
+    submitForm (e) {
+      e.preventDefault()
+      const formData = new FormData()
+      const { email, firstName } = this
+      if (!firstName) {
+        this.errors.push('First name required.')
+      } else if (!email || !/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}/.test(email)) {
+        this.errors.push('Email required.')
+      } else {
+        formData.append('firstName', firstName)
+        formData.append('emailAddress', email)
+        return fetch('https://emailoctopus.com/lists/07076b28-85ae-11e9-9307-06b4694bee2a/members/external-add', {
+          method: 'post',
+          body: formData
+        })
+            .then(res => {
+              if (res.status === 200) this.result = 'sucess'
+            })
+            .catch(() => {
+              this.result = 'failure'
+            })
+      }
+    },
     closeForm () {
       this.toggle('hide')
     }
@@ -39,8 +80,14 @@ export default{
 <style lang="sass">
 @import "../assets/sass/util"
 
-$show-bottom-pos: 42%
+$show-bottom-pos: 48%
 $hide-bottom-pos: -100%
+
+.success 
+  color: #5bbe91
+
+.error
+  color: #9F6000
 
 .signup-container
   display: none
@@ -52,27 +99,24 @@ $hide-bottom-pos: -100%
     width: $w-preview + 2rem
     max-width: 100%
     position: fixed
-    left: 4%
     bottom: $hide-bottom-pos
     text-align: center
     border-radius: 3px
-    padding: 3rem 2rem
+    padding: 2rem 2rem
     z-index: 2
     h2
       margin-top: 0
       font-size: 2.125rem
 .signup-form
   position: relative
-  .signup-field:first-child
-    width: 28%
   .signup-field
-    display: inline-block
-    width: 40%
-    margin-right: .5rem
+    display: block
+    width: 60%
+    margin: 0 auto 12px auto
     background: linear-gradient(to top, $primary-light, #fff 30%)
     border: 1px solid $primary-light
     font-size: 1rem
-    padding: .25rem .5rem
+    padding: .5rem .5rem
     max-width: 100%
     border-radius: 3px
     outline: none
