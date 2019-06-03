@@ -4,7 +4,7 @@ title: How not to learn programming (if you want to build something useful)
 
 Like most self-taught programmers, I started coding because I wanted to build something useful. Little did I know what that would entail: confusion, bugs, and an endless amount of frameworks and plugins to choose from and use. A majority of the time, I’ll admit, instead of building something useful, I've been falling into the same ineffective behaviors.
 
-It's hard being a self learner—you don’t have a curriculum that’s going ensure that you stay focused and that the problems you solve continually challenge you. You can get caught up in trivialities. And, without the structure of a clear deadline or an explicit grading-scale, it’s easy to not realize you’re getting sidetracked.
+It's hard being a self learner—you don’t have a curriculum that’s going ensure you stay focused and that the problems you solve continually challenge you. You can get caught up in trivialities. Without a clear deadline or an explicit grading-scale, it’s easy to not realize you’re getting sidetracked.
 
 Sometimes we need a bit of a reminder; I know I do. So instead of trying out that next new framework (no name calling!) or creating another semi-useful plugin (I can call myself out here: [Ency.js](https://github.com/encyjs/ency)), I created the list below. 
 

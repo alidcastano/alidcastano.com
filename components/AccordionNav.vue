@@ -1,5 +1,5 @@
 <template lang="pug">
-ul.accordion-nav(:style="accordionStyle")
+ul.accordion-nav.unlist(:style="accordionStyle")
   li.nav-item(v-for="path in menu")
     nuxt-link.nav-link(:to="path" exact) {{ (path === '/' ? index : path) | toTitle }}
   slot
@@ -36,9 +36,6 @@ export default {
 
 <style lang="sass">
 @import "../assets/sass/util"
-
-.accordion-nav li::before 
-  display: none 
 
 .accordion-nav
   width: 95%

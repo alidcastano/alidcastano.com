@@ -1,7 +1,7 @@
 ---
 title: Useful first, passionate second
 
-description: What I learned about following my passion.
+description: What I learned about following my passion, and what I'd suggest you do instead.
 ---
 
 There's this aura in college that you should first study what you like---one that many students are suffocated by. I only know, because I've gotten a good whiff of its effects myself.

@@ -2,9 +2,9 @@
 PreviewContainer
   h2 My 10 second pitch
   p I care deely about how we learn and share information online.
-  p My <a href="https://alidcastano.com/2016/be-uniquely-valuable" target="_blank">three skills</a> are coding, public speaking, and writing.
+  p My <a href="https://alidcastano.com/uniquely-valuable" target="_blank">three skills</a> are coding, public speaking, and writing.
   p I'm fascinated by startups, fitness, usable psychology, and conscious growth. Oh, and <a href="http://studbits.com" target="_blank">note-taking</a>!
-  p The best advice I've received is <a href="https://alidcastano.com/2016/stay-upwind" target="_blank">"Stay Upwind"</a>.
+  p The best advice I've received is <a href="https://alidcastano.com/stay-upwind" target="_blank">"Stay Upwind"</a>.
   p I was born in Colombia, raised in Miami, educated in Philly, went monk mode in Minnapolis,
     |  and now looking to reside in NYC.
 </template>

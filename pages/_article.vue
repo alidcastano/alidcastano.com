@@ -65,6 +65,10 @@ export default {
       font-size: 1.125rem
 .article-body
   font-family: Spectral,serif;
+  hr 
+    width: 90%
+    margin-left: auto
+    margin-right: auto
 .article-closer
   margin-top: 3rem
   margin-bottom: 4rem

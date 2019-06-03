@@ -11,7 +11,8 @@
 // --------------------
 // Theme
 // --------------------
-ul
+ul,
+.list
   list-style: none
   li
     position: relative
@@ -23,3 +24,10 @@ ul
     position: absolute;
     top: -.1em
     left: -1em
+
+
+.unlist 
+  padding-left: 0
+  li::before 
+    display: none 
+  

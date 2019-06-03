@@ -3,7 +3,7 @@ module.exports = {
     'now',
     ['articles', {
       page: '/_article',
-      permalink: ':year/:slug'
+      permalink: ':slug'
     }],
     ['projects', {
       page: '/projects/_project',

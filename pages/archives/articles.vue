@@ -1,9 +1,9 @@
 <template lang="pug">
-ContentContainer.article-archives
-  ul(slot="content")
+ContentContainer
+  ul.unlist.article-archive(slot="content")
     li.article-group(v-for="[date, articles] in articlesByDate")
       h3.group-label {{ date }}
-      ul.article-list
+      ul.article-list.list
         li.article-preview(v-for="article in articles")
           nuxt-link(:to="article.path") {{ article.title }}
           p.article-description(v-if="article.description") {{ article.description }}
@@ -14,7 +14,9 @@ import ContentContainer from '~/components/ContentContainer'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    articles: await app.$content('/articles').getAll()
+    articles: (
+      await app.$content('/articles').getAll()
+    ).filter(article => !article.draft)
   }),
 
   computed: {
@@ -37,6 +39,9 @@ export default {
 </script>
 
 <style lang="sass">
+.article-archive
+  margin-bottom: 48px
+
 .article-group
   list-style-type: none
 

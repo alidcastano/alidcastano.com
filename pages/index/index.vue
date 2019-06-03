@@ -14,9 +14,11 @@ import PreviewContainer from '~/components/PreviewContainer'
 
 export default {
   asyncData: async ({ app }) => ({
-    articles: await app.$content('/articles')
-    .query({ exclude: 'body' })
-    .getOnly(0, 4)
+    articles: (
+      await app.$content('/articles')
+      .query({ exclude: 'body' })
+      .getOnly(0, 4)
+    ).filter(article => !article.draft)
   }),
   components: {
     PreviewContainer
