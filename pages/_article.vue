@@ -21,15 +21,31 @@ export default {
     article: await app.$content('/articles').get(route.path)
   }),
 
-  computed: {
-    overrideMargin () {
-      if (this.article.title.length > 30) return { 'margin-left': '1rem' }
+  head () {
+    return {
+      title: 'Alid Castano | ' + this.article.title,
+      meta: [
+        { name: 'description', hid: 'description', content: this.article.description },
+        // Open Graph
+        { name: 'og:title', content: this.article.title },
+        { name: 'og:description', content: this.article.description },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:url', content: `https://alidcastano.com/${this.article.permalink}` },
+        { name: 'og:image', content: `https://alidcastano.com/img/articles/${this.article.image}` },
+        // Twitter Card
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:site', content: '@alidcastano' },
+        { name: 'twitter:title', content: this.article.title },
+        { name: 'twitter:description', content: this.article.description },
+        { name: 'twitter:image', content: `https://alidcastano.com/img/articles/${this.article.image}` },
+        { name: 'twitter:image:alt', content: this.article.title }
+      ]
     }
   },
 
-  head () {
-    return {
-      title: 'Alid Castano | ' + this.article.title
+  computed: {
+    overrideMargin () {
+      if (this.article.title.length > 30) return { 'margin-left': '1rem' }
     }
   },
 
