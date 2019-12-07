@@ -12,13 +12,13 @@ quote: |
 image: thoughtful-design.jpg
 ---
 
-I've always felt resistance using traditional note-taking and social media apps. I take notes to capture my life’s most profound moments the same way someone might take pictures to capture their most enjoyable ones. So I’m sensitive to the design of apps where I collect and share my notes. They have to be thoughtful enough to encourage it.
+I've always felt resistance using traditional note-taking apps. I take notes to capture my life’s most profound moments the same way someone might take pictures to capture their most enjoyable ones. So I’m sensitive to the design of apps where I collect and share my notes. They have to be thoughtful enough to encourage it.
 
-Thoughtful. That’s not usually the way an app is described. Silly, maybe. Addictive, for sure. But not thoughtful. Yet that’s where it's experienced--as you use an app, it occupies space in your thinking, just like a tool occupies space in your hands. 
+Thoughtful. That’s not usually the way an app is described. Silly, maybe. Addictive, sure. But not thoughtful. Yet that’s how it's experienced--as you use an app, it occupies space in your thinking, just like a tool occupies space in your hands. 
 
-The mind space an app occupies is easy to take for granted. I certainly didn’t realize its importance until I started working on my own social, note-taking app, [Studbits](http://studbits.com). I’ve been working on it for over a year now, and I’ve invested a non-trivial amount of that time iterating to make the experience *feel right*.
+The mind space an app occupies is easy to take for granted. I certainly didn’t realize its importance until I started working on my own note-taking app, [Studbits](http://studbits.com). I’ve been working on it for over a year now, and lot of that time has been iterating to make the experience *feel right*.
 
-What does it even mean for an app to feel right? The feel of an app is feature that’s hard to substantiate. It’s likely not what you’d include in a pitch to get an investors attention, nor an easy explanation to give friends and family for why you haven’t launched. Yet I believe getting the feel right is crucial to crafting an app for meaningful engagement. So I figured it’d take a step back from coding and unpack what I’ve learned about app design this last year.
+What does it even mean for an app to feel right? It's a feature that’s hard to substantiate. It’s likely not what you’d include in a pitch to get an investors attention, nor an easy explanation to give friends and family for why you haven’t launched. Yet I believe getting the feel of an app right is crucial to crafting an app for meaningful engagement. So I figured it’d take a step back from coding and unpack what I’ve learned about app design this last year.
 
 ### Subtly / Friction
 
@@ -82,7 +82,7 @@ At what point is a company’s culture formed? This question is a placeholder I 
 
 ### Thoughts / Design 
 
-I think about thoughtful design a lot, because I believe it's crucial to creating spaces for meaningful engagement onine. Every variable makes a difference: a frictionless experience gives us room to think; a welcoming atmosphere encourages us to express ourselves; and an upstanding culture reinforces positive behavior. The entire experience has to be congruent for genuine interactions to flourish.
+I think about thoughtful design a lot, because I believe it's crucial to creating spaces for meaningful engagement online. Every variable makes a difference: a frictionless experience gives us room to think; a welcoming atmosphere encourages us to express ourselves; and an upstanding culture reinforces positive behavior. The entire experience has to be congruent for genuine interactions to flourish.
 
 As I summarize these takeaways, it does feel like a lot to ask for. But maybe that’s a sign of untapped experiences online. At the very least, thoughtful design is worth aiming for. Who knows, there could be new, emergent behaviors left to be discovered from it.
 
