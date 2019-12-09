@@ -1,7 +1,7 @@
 <template lang="pug">
 div.site-header
   a.masthead(href="/") Alid Castano
-    | <span class="slogan"> Programming, fitness, usable psychology, and conscious growth. </span>
+    // | <span class="slogan"> Programming, fitness, usable psychology, and conscious growth. </span>
 </template>
 
 <script>
