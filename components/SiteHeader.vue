@@ -1,6 +1,6 @@
 <template lang="pug">
 div.site-header
-  a.masthead(href="/") Alid Castano
+  a.masthead(href="/") Alid Lorenzo
     // | <span class="slogan"> Programming, fitness, usable psychology, and conscious growth. </span>
 </template>
 
