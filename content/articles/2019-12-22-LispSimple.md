@@ -46,7 +46,32 @@ Now, my original example above wasn't exactly fair. There's a shorthand for cond
 condition ? foo() : bar()
 ```
 
-So that leaves us with two parenthesis rather than three. But it's one more arbitrary rule we have to know for the sake of nicer syntax. Whereas Lisp, as you learn why its syntax is the way it is, your conception of nice syntax changes. The same way vegetables taste better once you associate their taste with health, parenthesis read better once you associate their presence with simplicity.
+That leaves us with two parenthesis rather than three. But it's one more arbitrary rule we have to know for the sake of nicer syntax. 
+
+You might still be wondering: couldn't we preserve the order of expression with something else, like new line characters?
+
+Let's use a more complex example, a factorial program, in Ruby versus Clojure:
+
+```
+def factorial(n)
+  if n == 1
+    1
+  else
+    n * factorial(n - 1)
+  end
+end
+```
+
+```
+(def factorial (n)
+    (if (= n 1)
+        1
+        (* n (factorial (- n 1)))))
+```
+
+The first example is seven lines long, the second one is four. In the second example, however, with the parens jumbled up at the end, there’s more noise. But here’s what I didn't realize about parans before writing Lisp: there's wonderful editor support for them. From colorizing a pair of parans based on their nesting to connecting them with a line as you focus on their block of code. So, parans give you more control over the structure of your code and shorter programs, without the trade-offs you'd visually expect.
+
+With Lisp, as you learn why its syntax is the way it is, your conception of nice syntax changes. The same way vegetables taste better once you associate their taste with health, parenthesis read better once you associate their presence with simplicity, and install a plugin for vscode that makes them visually appealing to look at.
 
 ### (why? '(first args))
 
@@ -68,12 +93,22 @@ All programming languages have special forms. A set of primitives the compiler n
 
 The `if` statement, for example, is a special form because the compiler needs to be instructed to conditionally evaluate an expression; the `when` statement, on the other hand, doesn't have to be because it can be built of top of `if`.
 
-In Lisp, the special form that lets you to build on top of the language itself is called a `macro`. You might ask, why doesn't my programming language have macros? But a better question is: if my language had macros, how easy would they be to use? Because most languages just aren't simple enough to build on top of themselves, so even if the functionality to do so is exposed, it isn't used. Not even by the language designers themselves.
+In Lisp, the special form that lets you to build on top of the language itself is called a `macro`. You might ask, why doesn't my programming language have macros? But a better question is: if my language had macros, how easy would they be to use?
+
+### (macroexpand 'defmacro)
+
+What's special about Lisp isn't that it has macros for building on top of the language, but that its syntax is simple enough that you actually use them.
+
+In other programming languages, syntax is more complex. Not only because it's less uniform, but because the code isn't represented the way it needs to be evaluated. While other programming languages toss around abstract syntax trees, in Lisp, your code is in the shape it has to be: a list of nested trees. 
+
+That's in fact where the name, Lisp, originates. It's a list processing language, built for the purpose of transforming one list of code trees to another.
+
+It's because of Lisp's syntax that you can unfold code in your mind the way it's unfolded by the compiler: recursively. No need to walk an entire tree of code to add special hooks to transform it. With Lisp macros, you can compose code transformations as standalone functions, and as you do so, you only need to handle the level of the code tree you're already thinking about. 
 
 ### (def simple)
 
-So what does it mean to say Lisp is simple? I mean simple in the sense that I couldn't help but smile while learning it. In the moments where I realized a programming language could be built out of a small set of rules, and that such rules could be so logically transparent. 
+So, what do I mean when I say Lisp is simple? I mean simple in that it uses parenthesis to order expressions rather than arbitrary rules; and simple in that an operation is listed first and its arguments after, because that's the way functions are used, and in Lisp, everything acts like a function. 
 
-While learning Lisp I felt as if I was this a kid programmer with lots of questions about why things are the way they are and all my parent languages just said "Because," and then  Lisp came around and actually explained itself to me. The designers of my parent languages had their reasons too, sure; but they weren't evident to me while learning the language, whereas with Lisp they're fundamental to learning to use it well.
+I mean simple in the sense that I couldn't help but smile while learning Lisp. In the moments where I realized a programming language could be built around such a small set of rules, and that such rules could be so logically transparent. 
 
-// code is list of data
+While learning Lisp I felt like a kid programmer again. With lots of questions about why syntax is the way it is and while my parent languages just said "Because," Lisp came around and actually explained itself to me. I'm sure the designers of my parent languages had reasons for their syntax, too; but they weren't evident to me while learning the language, whereas with Lisp its syntax is fundamental to learning to use it well. As Lispsers like to say, "code is data, and data is code."
