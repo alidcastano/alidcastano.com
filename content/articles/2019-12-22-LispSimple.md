@@ -1,5 +1,6 @@
 ---
 title: (why? :lisp)
+description: Exploring Lisp's parenthesis and operator placement; or, the merits of a uniform, treelike syntax.
 ---
 
 I used to see Lisp code and wonder, how could anyone read that? But instead, what I should have asked is: why would anyone write that? Because, as I've come to learn, developers who read lisp do so for the same reason they write it: it's easy to think in. 
@@ -25,7 +26,7 @@ As it turns out, the underlying answer to these two questions is the same.
 Let's start with parenthesis. Why must Lisp have so many if other programming languages manage with less?
 
 Well, even that's not necessarily true. Other programming languages have the same amount of parenthesis, they're just situated differently.
-
+{}
 Compare a conditional expression in Javascript (the language I was using before learning a Lisp) versus Clojure (the dialect of Lisp I chose to learn): 
 
 ```js
