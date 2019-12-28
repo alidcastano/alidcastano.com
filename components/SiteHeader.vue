@@ -39,23 +39,23 @@ export default {
   margin: 0
   &:hover
     text-decoration: none
-  .slogan
-    display: none
+
+.slogan
+  display: none
+  color: #82a1b0
+  font-size: .8rem
+  letter-spacing: initial
+  font-weight: 400
+  margin-top: -.75rem
+  @media (min-width: $bp-tablet)
     display: block
     color: #82a1b0
-    font-size: .8rem
+    font-size: 1.025rem
     letter-spacing: initial
     font-weight: 400
-    margin-top: -.25rem
-    @media (min-width: $bp-tablet)
-      display: block
-      color: #82a1b0
-      font-size: 1.025rem
-      letter-spacing: initial
-      font-weight: 400
-      margin-top: -.75rem
-      padding-left: .6rem
-      text-align: left
+    margin-top: -1.25rem
+    padding-left: .6rem
+    text-align: left
 
 .landing-container .masthead
   font-size: 2.25rem

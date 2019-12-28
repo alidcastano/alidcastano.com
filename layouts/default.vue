@@ -55,8 +55,17 @@ export default {
     margin-right: 120px
 
 .landing-container,
-.landing-container .site-content 
   margin-top: 8px
+
+.landing-container .site-content 
+  margin-top: 20px
+  @media (min-width: $bp-tablet)
+    margin-top: 16px
+
+.home-footer
+  display: none
+  @media (min-width: $bp-tablet)
+    display: flex 
 
 .site-content 
   flex: 1
