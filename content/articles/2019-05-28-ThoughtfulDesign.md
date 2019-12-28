@@ -12,7 +12,7 @@ quote: |
 image: thoughtful-design.jpg
 ---
 
-I've always felt resistance using traditional note-taking apps. I take notes to capture my life’s most profound moments the same way someone might take pictures to capture their most enjoyable ones. So I’m sensitive to the design of apps where I collect and share my notes. They have to be thoughtful enough to encourage it.
+I've always felt resistance using traditional note-taking and social media apps. I take notes to capture my life’s most profound moments the same way someone might take pictures to capture their most enjoyable ones. So I’m sensitive to the design of apps where I collect and share my notes. They have to be thoughtful enough to encourage it.
 
 Thoughtful. That’s not usually the way an app is described. Silly, maybe. Addictive, sure. But not thoughtful. Yet that’s how it's experienced--as you use an app, it occupies space in your thinking, just like a tool occupies space in your hands. 
 
