@@ -49,7 +49,7 @@ export default {
     ]
 
     if (this.article.image) {
-      const imagePath = siteUrl + '/img/articles/' + this.article.image
+      const imagePath = siteUrl + '/img/essays/' + this.article.image
       fbMeta.push({ name: 'og:image', content: imagePath })
       twitterMeta.push({ name: 'twitter:image:src', content: imagePath })
     }

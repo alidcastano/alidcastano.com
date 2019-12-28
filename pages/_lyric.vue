@@ -1,5 +1,5 @@
 <template lang="pug">
-EntryPost(:entry="song")
+EntryPost(:entry="lyric")
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import EntryPost from '~/components/EntryPost'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    song: await app.$content('/songs').get(route.path)
+    lyric: await app.$content('/lyrics').get(route.path)
   }),
 
   components: {

@@ -1,7 +1,7 @@
 <template lang="pug">
 ArchivePage(
-  heading="Songs"
-  :entries="songs"
+  heading="Lyrics"
+  :entries="lyrics"
 )
 </template>
 
@@ -10,8 +10,8 @@ import ArchivePage from '~/components/ArchivePage'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    songs: (
-      await app.$content('/songs').getAll()
+    lyrics: (
+      await app.$content('/lyrics').getAll()
     ).filter(article => !article.draft)
   }),
 

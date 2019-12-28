@@ -1,5 +1,5 @@
 <template lang="pug">
-EntryPost(:entry="article")
+EntryPost(:entry="essay")
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import EntryPost from '~/components/EntryPost'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    article: await app.$content('/articles').get(route.path)
+    essay: await app.$content('/essays').get(route.path)
   }),
 
   components: {

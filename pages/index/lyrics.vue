@@ -1,10 +1,10 @@
 <template lang="pug">
 PreviewLatestTab(
-  :entries="songs"
+  :entries="lyrics"
   heading="What I've been thinking about, poetically"
-  contentPath="/songs"
-  archivePath="/archives/songs"
-  archiveLabel="See all songs"
+  contentPath="/lyrics"
+  archivePath="/archives/lyrics"
+  archiveLabel="See all lyrics"
 )
 </template>
 
@@ -13,8 +13,8 @@ import PreviewLatestTab from '~/components/PreviewLatestTab'
 
 export default {
   asyncData: async ({ app }) => ({
-    songs: (
-      await app.$content('/songs')
+    lyrics: (
+      await app.$content('/lyrics')
       .query({ exclude: 'body' })
       .getAll()
     ).filter(entry => !entry.draft).slice(0, 4)

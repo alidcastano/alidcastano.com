@@ -1,13 +1,13 @@
 module.exports = {
   content: [
     'now',
-    ['articles', {
-      page: '/_entry',
+    ['essays', {
+      page: '/_essay',
       permalink: ':slug'
     }],
-    ['songs', {
-      page: '_song',
-      permalink: 's/:slug'
+    ['lyrics', {
+      page: '/_lyric',
+      permalink: 'l/:slug'
     }],
     ['projects', {
       page: '/projects/_project',
