@@ -17,7 +17,7 @@ export default {
       await app.$content('/lyrics')
       .query({ exclude: 'body' })
       .getAll()
-    ).filter(entry => !entry.draft).slice(0, 4)
+    ).filter(entry => !entry.draft).slice(0, 7)
   }),
   components: {
     PreviewLatestTab
