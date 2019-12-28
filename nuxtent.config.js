@@ -2,8 +2,12 @@ module.exports = {
   content: [
     'now',
     ['articles', {
-      page: '/_article',
+      page: '/_entry',
       permalink: ':slug'
+    }],
+    ['songs', {
+      page: '_song',
+      permalink: 's/:slug'
     }],
     ['projects', {
       page: '/projects/_project',

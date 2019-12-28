@@ -1,51 +1,51 @@
 <template lang="pug">
 ContentContainer
-  div.article-lead(slot="lead")
-    h1.article-title {{ article.title }}
-    h3(v-if="article.description").article-description {{ article.description }}
+  div.entry-lead(slot="lead")
+    h1.entry-title {{ entry.title }}
+    h3(v-if="entry.description").entry-description {{ entry.description }}
 
-  section.article-body(slot="content" :style="overrideMargin")
-    div(v-html="article.body")
-    // ShareWidgets(:article="article")
+  section.entry-body(slot="content" :style="overrideMargin")
+    div(v-html="entry.body")
+    // ShareWidgets(:entry="entry")
 
-  div.article-closer(slot="closer")
-    img.article-image(v-if="article.image" :src="`/img/articles/${article.image}`")
-    p(v-if="article.quote" v-html="article.quote").article-quote
+  div.entry-closer(slot="closer")
+    img.entry-image(v-if="entry.image" :src="`/img/entrys/${entry.image}`")
+    p(v-if="entry.quote" v-html="entry.quote").entry-quote
 </template>
 
 <script>
 import ContentContainer from '~/components/ContentContainer'
 
 export default {
-  asyncData: async ({ app, route }) => ({
-    article: await app.$content('/articles').get(route.path)
-  }),
+  props: {
+    entry: { type: Object }
+  },
 
   head () {
     return {
-      title: 'Alid Castano | ' + this.article.title,
+      title: 'Alid Castano | ' + this.entry.title,
       meta: [
-        { name: 'description', hid: 'description', content: this.article.description },
+        { name: 'description', hid: 'description', content: this.entry.description },
         // Open Graph
-        { name: 'og:title', content: this.article.title },
-        { name: 'og:description', content: this.article.description },
+        { name: 'og:title', content: this.entry.title },
+        { name: 'og:description', content: this.entry.description },
         { name: 'og:type', content: 'website' },
-        { name: 'og:url', content: `https://alidcastano.com/${this.article.permalink}` },
-        { name: 'og:image', content: `https://alidcastano.com/img/articles/${this.article.image}` },
+        { name: 'og:url', content: `https://alidcastano.com/${this.entry.permalink}` },
+        { name: 'og:image', content: `https://alidcastano.com/img/entrys/${this.entry.image}` },
         // Twitter Card
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:site', content: '@alidcastano' },
-        { name: 'twitter:title', content: this.article.title },
-        { name: 'twitter:description', content: this.article.description },
-        { name: 'twitter:image', content: `https://alidcastano.com/img/articles/${this.article.image}` },
-        { name: 'twitter:image:alt', content: this.article.title }
+        { name: 'twitter:title', content: this.entry.title },
+        { name: 'twitter:description', content: this.entry.description },
+        { name: 'twitter:image', content: `https://alidcastano.com/img/entrys/${this.entry.image}` },
+        { name: 'twitter:image:alt', content: this.entry.title }
       ]
     }
   },
 
   computed: {
     overrideMargin () {
-      if (this.article.title.length > 30) return { 'margin-left': '1rem' }
+      if (this.entry.title.length > 30) return { 'margin-left': '1rem' }
     }
   },
 
@@ -59,19 +59,19 @@ export default {
 <style lang="sass" scope>
 @import "../assets/sass/util"
 
-.article-lead
+.entry-lead
   margin-top: 16px
   margin-bottom: 1.25rem
   width: 100%
   @media (min-width: $bp-tablet)
     margin-bottom: 1.75rem
-  .article-title
+  .entry-title
     font-size: 1.6rem
     color: #45606e
     margin: 0
     @media (min-width: $bp-tablet)
       font-size: 2.125rem
-  .article-description
+  .entry-description
     font-size: 1rem
     margin-top: 4px
     color: #9fa5ad
@@ -79,7 +79,7 @@ export default {
     font-style: italic
     @media (min-width: $bp-tablet)
       font-size: 1.125rem
-.article-body
+.entry-body
   font-family: Spectral,serif;
   hr 
     width: 90%
@@ -92,12 +92,12 @@ br
   content: " "
   margin-top: 4px
   
-.article-closer
+.entry-closer
   margin-top: 3rem
   margin-bottom: 4rem
-.article-image
+.entry-image
   margin: .5rem auto 1rem auto
-.article-quote
+.entry-quote
   margin: 0 auto
   color: #838b95
   font-style: italic
