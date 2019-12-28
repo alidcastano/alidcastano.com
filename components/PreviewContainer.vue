@@ -29,6 +29,6 @@ export default {
     padding-bottom: .5rem
 
 .see-all
-  font-size: 1.25rem
+  font-size: 1.125rem
   opacity: .8
 </style>

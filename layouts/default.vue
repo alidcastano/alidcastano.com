@@ -73,7 +73,7 @@ export default {
   margin-top: 16px
 
 .site-content 
-  flex: 1
+  margin-bottom: 16px
 
 .landing-container
   height: 90vh

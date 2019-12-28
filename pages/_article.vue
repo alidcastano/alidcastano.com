@@ -85,6 +85,9 @@ export default {
     width: 90%
     margin-left: auto
     margin-right: auto
+  a 
+    text-decoration: underline
+  
 .article-closer
   margin-top: 3rem
   margin-bottom: 4rem

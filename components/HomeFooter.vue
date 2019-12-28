@@ -4,7 +4,8 @@ div.home-footer
     |  <nuxt-link to="/">clarify my thoughts</nuxt-link>,
     | <nuxt-link to="/projects">record my work</nuxt-link>, and
     | <nuxt-link to="/now">establish my priorities.</nuxt-link>
-    | Fundamentally, this place is mainly for me, but while you're here, I hope you find your stay worthwhile.
+    | Fundamentally, this place is mainly for
+    | <nuxt-link to="/about">me</nuxt-link>, but while you're here, I hope you find your stay worthwhile.
 </template>
 
 <style lang="sass">
@@ -19,7 +20,8 @@ div.home-footer
   padding-bottom: 1.5rem
   @media (min-width: $bp-tablet)
     margin: 0
-    font-size: 1rem
+    font-size: .9rem
+    max-width: 34rem
   a
     text-decoration: underline
 </style>
