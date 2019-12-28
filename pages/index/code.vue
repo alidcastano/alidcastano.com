@@ -14,7 +14,7 @@ import PreviewContainer from '~/components/PreviewContainer'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    projects: (await app.$content('/projects').getOnly(0)).body.slice(0, 3)
+    projects: (await app.$content('/code').getOnly(0)).body.slice(0, 3)
   }),
   components: {
     PreviewContainer

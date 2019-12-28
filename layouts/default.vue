@@ -14,7 +14,7 @@ import AccordionNav from '~/components/AccordionNav'
 
 export default {
   data: () => ({
-    menu: ['/', '/lyrics', '/projects', '/now', '/about']
+    menu: ['/', '/lyrics', '/code', '/now', '/me']
   }),
   computed: {
     isLanding () {

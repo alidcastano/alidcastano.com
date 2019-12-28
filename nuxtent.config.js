@@ -9,8 +9,8 @@ module.exports = {
       page: '/_lyric',
       permalink: 'l/:slug'
     }],
-    ['projects', {
-      page: '/projects/_project',
+    ['code', {
+      // page: '/_code', // unused.
       isPost: false
     }]
   ],
