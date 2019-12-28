@@ -100,19 +100,19 @@ The `if` statement, for example, is a special form because the compiler needs to
 
 In Lisp, the special form that lets you to build on top of the language itself is called a `macro`. You might ask, why doesn't my programming language have macros? But a better question is: if my language had macros, how easy would they be to use?
 
-### (macroexpand 'defmacro)
+### (macroexpand 'lisp)
 
-What's special about Lisp isn't that it has macros for building on top of the language, but that its syntax is simple enough that you actually use them.
-
-In other programming languages, syntax is more complex. Not only because it's less uniform, but because the code isn't represented the way it needs to be evaluated. While other programming languages toss around abstract syntax trees, in Lisp, your code is in the shape it has to be: a list of nested trees. 
+In other programming languages syntax is more complex. Not only because it's less uniform, but because code isn't represented the way it needs to be evaluated. While other programming languages toss around abstract syntax trees, in Lisp, your code is already in the shape it has to be: a list of nested trees. 
 
 That's in fact where the name, Lisp, originates. It's a list processing language, built for the purpose of transforming one list of code trees to another.
 
-It's because of Lisp's syntax that you can unfold code in your mind the way it's unfolded by the compiler: recursively. No need to walk an entire tree of code to add special hooks to transform it. With Lisp macros, you can compose code transformations as standalone functions, and as you do so, you only need to handle the level of the code tree you're already thinking about. 
+Because of Lisp's syntax, code can unfold code in your mind the same way it's unfolded by the compiler: recursively. No need to walk an entire tree of code and add special hooks to transform it. With Lisp macros, you can compose code transformations as standalone functions, and as you do so, you only need to handle the level of the code tree you're already thinking about. 
+
+You see, what's special about Lisp isn't that it has macros for building on top of the language, but that its syntax is simple enough that you actually use them.
 
 ### (def simple)
 
-So, what do I mean when I say Lisp is simple? I mean simple in that it uses parenthesis to order expressions rather than arbitrary rules; and simple in that an operation is listed first and its arguments after, because that's the way functions are used, and in Lisp, everything acts like a function. 
+So, what exactly do I mean when I say Lisp is simple? I mean simple in that it uses parenthesis to order expressions rather than arbitrary rules; and simple in that an operation is listed first and its arguments after, because that's the way functions are used, and in Lisp, everything acts like a function. 
 
 I mean simple in the sense that I couldn't help but smile while learning Lisp. In the moments where I realized a programming language could be built around such a small set of rules, and that such rules could be so logically transparent. 
 

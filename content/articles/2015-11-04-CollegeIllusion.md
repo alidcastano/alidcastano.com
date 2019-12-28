@@ -6,8 +6,6 @@ image: coin-trick.jpg
 quote: |
     "Formal education will make you a living; self-education will make you a fortune."
     - Jim Rohn
-
-permalink: "yess!"
 ---
 
 Till this day, I remember the first time my mom talked to my brothers and me about college. She called all four of us to the living room for another "family meeting" and entered the room herself, carrying four bulky, crimson folders.
