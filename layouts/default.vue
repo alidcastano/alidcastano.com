@@ -3,12 +3,9 @@ div.site-container(:class="layoutStyle")
   SiteHeader
   div.site-content
     AccordionNav(v-if="isLanding" :menu="menu" index="/articles")
-      li.extra-menu-item
-        button.signup-button(@click="toggleSignup()") Subscribe
     div.main
       nuxt
   HomeFooter.home-footer(v-if="isLanding")
-  SignupForm(v-if="isLanding" :display="signupDisplay" :toggle="toggleSignup")
 </template>
 
 <script>
@@ -17,8 +14,7 @@ import AccordionNav from '~/components/AccordionNav'
 
 export default {
   data: () => ({
-    menu: ['/', '/projects', '/now', '/about', '/contact'],
-    signupDisplay: 'none'
+    menu: ['/', '/projects', '/now', '/about']
   }),
   computed: {
     isLanding () {
@@ -29,19 +25,9 @@ export default {
     }
   },
 
-  methods: {
-    toggleSignup (display) {
-      if (display) this.signupDisplay = display
-      else if (['hide', 'none'].indexOf(this.signupDisplay) > -1) this.signupDisplay = 'show'
-      else if (this.signupDisplay === 'show') this.signupDisplay = 'hide'
-      else this.signupDisplay = 'none'
-    }
-  },
-
   components: {
     SiteHeader,
     AccordionNav,
-    SignupForm: () => import('~/components/SignupForm'),
     HomeFooter: () => import('~/components/HomeFooter')
   }
 }
@@ -85,17 +71,6 @@ export default {
     position: relative
     top: .75rem
     left: 2.8rem
-
-.signup-button
-  background-color: transparent
-  color: $primary-dark
-  border: none
-  position: absolute
-  top: -1rem
-  font-size: 1.025rem
-  font-family: $heading-font-family
-  outline: none
-  cursor: pointer
 
 .main
   padding-left: 1rem

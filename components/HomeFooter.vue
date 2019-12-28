@@ -1,13 +1,20 @@
 <template lang="pug">
 div.home-footer
-  p.footer-message Welcome to my online home! I come here to
-    |  <nuxt-link to="/">clarify my thoughts</nuxt-link>,
-    | <nuxt-link to="/projects">record my work</nuxt-link>, and
-    | <nuxt-link to="/now">establish my priorities.</nuxt-link>
-    | Fundamentally, this place is mainly for
-    | <nuxt-link to="/about">me</nuxt-link>, but while you're here, I hope you find your stay worthwhile.
+  div.footer-message
+    SignupForm
+    p 
+      | You can sign up for occasional email updates above.
+      | I'm also on <a href="https://mobile.twitter.com/alidcastano">twitter</a> and <a href="https://instagram.com/alidcastano/">instagram</a>,
+      | or you can reach directly at alidcastano@gmail.com.
 </template>
 
+<script>
+export default {
+  components: {
+    SignupForm: () => import('~/components/SignupForm')
+  }
+}
+</script>
 <style lang="sass">
 @import "../assets/sass/util"
 
@@ -18,6 +25,10 @@ div.home-footer
   margin: auto
   font-size: .8rem
   padding-bottom: 1.5rem
+  p 
+    color: $gray-3
+    margin-top: 8px
+    margin-left: 4px
   @media (min-width: $bp-tablet)
     margin: 0
     font-size: .9rem
