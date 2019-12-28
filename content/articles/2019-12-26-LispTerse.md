@@ -1,6 +1,7 @@
 ---
 title: (p2 (why? :lisp))
 description: Exploring lisp's terseness; or, the merits of computer slang.
+draft: true
 ---
 
 In my [last essay](/lisp-simple), I explored why I've enjoyed learning Lisp: the realization that the seemingly excessive parenthesis and unusual operator placements are features, not bugs, of the language; intended towards establishing a uniform, treelike syntax for building on top of the language itself with macros.
@@ -42,8 +43,6 @@ Abbreviation, in that way, is like abstraction. In places where functionality is
 
 In Lisp, the terseness of the syntax extends further. Because with macros, there's more meta languages you have to account for. Sitting at the top, in fact, is the language you use to model your applications.
 
-Terse code, as we've seen, gets a bad rap when its syntax isn't universally understood. It useful, therefore, to distinguish between [readability-per-line and readability of the whole program](http://www.paulgraham.com/power.html). Unfamiliar syntax undeniably makes code harder to read at first glance. But a program shouldn't be written for a programmer who'll superficially look at it, but for someone who'll take the time to fully understand it. 
-
 ### (measure :lang)
 
 In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
@@ -60,5 +59,5 @@ What's wonderful about a computer, is that it'll speak any language you throw at
 
 The goal of a programming language, then, is to help you create applications worth running. It takes lots of iteration to arrive at a good idea so, ideally, a language would be as as close to your thoughts as possible.
 
-And that, I propose, is the appeal of Lisp. Along with being simple, it's terse. Which, compared to other languages, makes it closer to thinking than writing; like scribbles written to preserve a thought rather the prose written to transmit an idea. I'm pleased to be learning it because, after more than four years of programming, I finally feel like I can turn my scribbles of code into eloquent programs.
+And that, I propose, is the appeal of Lisp. Along with being simple, it's terse. Which, compared to other programming languages, makes it closer to thinking than writing--like scribbles written to preserve a thought rather the prose written to transmit an idea. I'm pleased to be learning Lisp because, after more than four years of programming, I finally feel like I can turn my scribbles of code into an eloquent program.
 

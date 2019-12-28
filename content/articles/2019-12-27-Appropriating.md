@@ -1,6 +1,7 @@
 ---
 title: (appropriating)
 description: The act of naming code well.
+draft: true
 ---
 
 It's said that there are only two hard things in computer science: cache invalidation and naming things. When I first came across this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?

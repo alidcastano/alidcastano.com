@@ -1,6 +1,7 @@
 ---
 title: (p2 (appropriating))
 description: Guidelines for naming code well.
+draft: true
 ---
 
 Naming code, or as I appropriated it my last essay, [appropriating](/appropriating), is front and center to what we do as programmers. So, now that we have a fancy word for this process, we should establish some guidelines for it.
