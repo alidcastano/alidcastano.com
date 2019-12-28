@@ -72,13 +72,13 @@ export default {
     @media (min-width: $bp-tablet)
       font-size: 2.125rem
   .entry-description
-    font-size: 1rem
+    font-size: .9rem
     margin-top: 4px
     color: #9fa5ad
     font-weight: normal
     font-style: italic
     @media (min-width: $bp-tablet)
-      font-size: 1.125rem
+      font-size: 1rem
 .entry-body
   font-family: Spectral,serif;
   hr 
@@ -90,7 +90,7 @@ export default {
 br 
   display: block
   content: " "
-  margin-top: 4px
+  margin-top: 2px
   
 .entry-closer
   margin-top: 3rem
