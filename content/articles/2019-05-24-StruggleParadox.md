@@ -8,9 +8,9 @@ quote: |
 
 ---
 
-Whenever I discover a startup I like, or an entrepreneur I admire, I look into their story. The founder in me wants to know: what it was like in the beginning?  Ideally, I’d like to find a video of them when they were young or some essays they wrote sharing their journey—as it was happening. But instead, what I usually find a is a key-note speech they gave recollecting their story. The ups and down are there, but it doesn’t fully capture what it was like. So the only real artifact we end up with is a picture of them in their early twenties, smiling, next to an extinct desktop computer.
+Whenever I discover a startup I like, I look into its story. The founder in me wants to know: what it was like in the beginning?  Ideally, I’d like to find a video of its founders when they were young or some essay they wrote sharing their journey—as it was happening. But instead, what I usually find a is a key-note speech they gave recollecting their story. The ups and down are there, but it doesn’t fully capture what it was like. The only real artifact we end up with is a picture of them in their early twenties, smiling, next to an extinct desktop computer.
 
-Why don’t more entrepreneurs share their journey as it happens? I imagine not everyone who’s succesful cares about eventually motivating others to do the same. I, however, wanted to be a motivational speaker before I wanted to start a startup (yes, really), so sharing the ins and outs and ups and downs of starting a company is something I always thought about doing. I want my story to be feel real. Yet, I’ve been working on a startup for a year now and have yet to share a single experience. 
+Why don’t more entrepreneurs share their journey as it happens? I imagine not everyone who’s succesful cares about eventually motivating others to do the same. I, however, wanted to be a motivational speaker before I wanted to start a startup (yes, really), so sharing the ins and outs and ups and downs of starting a company is something I always cared about. I want my story to be feel real. Yet, I’ve been working on a startup for a year now and have yet to share a single experience. 
 
 I’m planning on changing that going forward. In fact, I’d like to start by explaining why I’ve found it difficult to share my journey.
 
