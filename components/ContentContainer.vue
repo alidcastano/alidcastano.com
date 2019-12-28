@@ -5,7 +5,7 @@ div.content-container
     slot(name="content")
   slot(name="closer")
   div.content-footer
-    nuxt-link.back-home(to="/") Back Home
+    nuxt-link.back-home(to="/") Home
 </template>
 
 <style lang="sass" scope>
