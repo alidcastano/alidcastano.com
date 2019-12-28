@@ -9,7 +9,7 @@ quote: |
 
 I used to see Lisp code and wonder, how could anyone read that? But instead, what I should have asked is: why would anyone write that? Because, as I've come to learn, developers who read lisp do so for the same reason they write it: it's easy to think in. 
 
-It's ironic that this is the main appeal of Lisp. Its syntax is so unlike written English, which is what other programming languages try to model, that when you first read Lisp code, and glance over a file filled with heavily indented, terse statements wrapped in parenthesis, all your mind can think is, "what the hell he this?" 
+It's ironic that this is the main appeal of Lisp. Its syntax is so unlike written English, which is what other programming languages try to model, that when you first read Lisp code, and glance over a file filled with heavily indented, terse statements wrapped in parenthesis, all your mind can think is, "what the hell is this?" 
 
 But you should cherish this initial reaction to Lisp, because it sits at the core of what makes it enlightening to learn: it doesn't model other languages for the sake of familiarity; instead, Lisp is the result of thinking from first principles. And I don't say that in the Elon Musk change-the-world type of way. In fact, Lisp wasn't proposed as a programming language at first. When John McCarthy invented it in 1958, all he intended to do was define a formal model of computation for AI research. It wasn't until later that his student, Steve Russel, extended and implemented it as a programming language.
 
@@ -30,7 +30,7 @@ As it turns out, the underlying answer to these two questions is the same.
 Let's start with parenthesis. Why must Lisp have so many if other programming languages manage with less?
 
 Well, even that's not necessarily true. Other programming languages have the same amount of parenthesis, they're just situated differently.
-{}
+
 Compare a conditional expression in Javascript (the language I was using before learning a Lisp) versus Clojure (the dialect of Lisp I chose to learn): 
 
 ```js
@@ -42,7 +42,7 @@ else bar()
 (if x (foo) (bar))
 ```
 
-Both snippets have three pairs of parens. Except, to understand the code in Javascript, you need to know three arbitrary rules: after the `if` the condition is wrapped in parens; that next `else` statement has to be in a new line (that is, unless you surround each expression block in curly brackets); and finally, to call a function you place parens next to it. Whereas in Clojure you only need to know one rule: you place parenthesis around expressions in the order you want them to evaluated.
+Both snippets have three pairs of parenthesis. Except, to understand the code in Javascript, you need to know three arbitrary rules: after the `if` its condition is wrapped in parenthesis; that next `else` statement has to be in a new line (that is, unless you surround each expression block in curly brackets); and finally, to call a function you place parenthesis next to it. Whereas in Clojure you only need to know one rule: you place parenthesis around expressions in the order you want them to be evaluated.
 
 You see, parenthesis are essential to Lisp for the same reason their essential to math: they emphasize the order of expressions. Would you rather memorize arbitrary rules like PEMDAS (what's `2 + 3 + 4 * 5`?) or have one visual indication for the order in which expressions should run (what's `(2 + 3 + (4 * 5))`?). 
 
@@ -74,7 +74,7 @@ end
         (* n (factorial (- n 1)))))
 ```
 
-The first example is seven lines long, the second one is four. In the second example, however, with the parens jumbled up at the end, there’s more noise. But here’s what I didn't realize about parans before writing Lisp: there's wonderful editor support for them. From colorizing a pair of parans based on their nesting to connecting them with a line as you focus on their block of code. So, parans give you more control over the structure of your code and shorter programs, without the trade-offs you'd visually expect.
+The first example is seven lines long, the second one is four. In the second example, however with the parenthesis jumbled up at the end, there’s more noise. But here’s what I didn't realize about parenthesis before writing Lisp: there's wonderful editor support for them. From colorizing a pair of parenthesis based on their nesting to connecting them with a line as you focus on their block of code. So, parenthesis give you more control over the structure of your code and shorter programs, without the trade-offs you'd visually expect.
 
 With Lisp, as you learn why its syntax is the way it is, your conception of nice syntax changes. The same way vegetables taste better once you associate their taste with health, parenthesis read better once you associate their presence with simplicity, and install a plugin for vscode that makes them visually appealing to look at.
 
