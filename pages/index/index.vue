@@ -17,8 +17,8 @@ export default {
     articles: (
       await app.$content('/articles')
       .query({ exclude: 'body' })
-      .getOnly(0, 4)
-    ).filter(article => !article.draft)
+      .getAll()
+    ).filter(article => !article.draft).slice(0, 4)
   }),
   components: {
     PreviewContainer
