@@ -61,7 +61,6 @@ export default {
   flex-direction: column
   padding: 0
   margin: 0
-  min-height: 100vh
   @media (min-width: $bp-tablet)
     margin-left: 24px 
     margin-right: 24px
@@ -69,9 +68,12 @@ export default {
     margin-left: 120px
     margin-right: 120px
 
+.landing-container,
+.landing-container .site-content 
+  margin-top: 16px
+
 .site-content 
   flex: 1
-  margin-top: 0px
 
 .landing-container
   height: 90vh
