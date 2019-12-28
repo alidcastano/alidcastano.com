@@ -10,7 +10,7 @@
     "nuxtent": "^0.2.73"
   },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port 4444",
     "build": "NODE_ENV='production' nuxt build",
     "build-dev": "nuxt build",
     "start": "NODE_ENV='production' nuxt start",

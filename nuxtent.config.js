@@ -13,6 +13,6 @@ module.exports = {
   api: {
     baseURL: process.env.NODE_ENV === 'production'
       ? 'https://alidcastano.com'
-      : 'http://localhost:3000'
+      : 'http://localhost:4444'
   }
 }
