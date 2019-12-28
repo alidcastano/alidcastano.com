@@ -1,6 +1,6 @@
 <template lang="pug">
 div.site-header
-  a.masthead(href="/") (alidlo)
+  a.masthead(href="/") alidlo
     | <span class="slogan"> programming, fitness, usable psychology, and conscious growth</span>
 </template>
 

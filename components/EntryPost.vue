@@ -85,6 +85,8 @@ export default {
     width: 90%
     margin-left: auto
     margin-right: auto
+  code 
+    font-size: .9rem
   a 
     text-decoration: underline
 br 
