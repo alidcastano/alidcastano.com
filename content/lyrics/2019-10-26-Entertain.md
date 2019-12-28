@@ -3,8 +3,8 @@ title: entertaining myself
 ---
 
 singers and rappers, I feel <br>
-aren't making rhymes that spins my wheels <br>
-all this stuff about booty shaking and baby making <br>
+aren't making rhymes I find surreal <br>
+all this stuff bout booty shakin' and baby makin' <br>
 that's not what I have in mind <br>
 life for me isn’t one big pastime <br>
 so ima make the rhymes I feel <br> 
