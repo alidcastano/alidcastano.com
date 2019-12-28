@@ -56,7 +56,7 @@ export default {
 
 .landing-container,
 .landing-container .site-content 
-  margin-top: 16px
+  margin-top: 8px
 
 .site-content 
   margin-bottom: 16px

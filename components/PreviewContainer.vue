@@ -24,8 +24,9 @@ export default {
   min-height: 24rem
 .preview-content
   margin-top: 1rem
-  margin-bottom: -1rem
+  margin-bottom: -2rem
   li
+    min-height: 2.5rem
     padding-bottom: .5rem
 
 .see-all
