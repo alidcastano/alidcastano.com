@@ -9,7 +9,7 @@ ContentContainer
     // ShareWidgets(:entry="entry")
 
   div.entry-closer(slot="closer")
-    img.entry-image(v-if="entry.image" :src="`/img/entrys/${entry.image}`")
+    img.entry-image(v-if="entry.image" :src="`/img/${imagePath}/${entry.image}`")
     p(v-if="entry.quote" v-html="entry.quote").entry-quote
 </template>
 
@@ -18,7 +18,8 @@ import ContentContainer from '~/components/ContentContainer'
 
 export default {
   props: {
-    entry: { type: Object }
+    entry: { type: Object },
+    imagePath: { type: String }
   },
 
   head () {

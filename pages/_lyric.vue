@@ -1,5 +1,5 @@
 <template lang="pug">
-EntryPost(:entry="lyric")
+EntryPost(:entry="lyric" imagePath="lyrics")
 </template>
 
 <script>
