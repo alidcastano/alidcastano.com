@@ -1,7 +1,7 @@
 <template lang="pug">
 div.site-header
-  a.masthead(href="/") Alid Lorenzo
-    // | <span class="slogan"> Programming, fitness, usable psychology, and conscious growth. </span>
+  a.masthead(href="/") (alidlo)
+    | <span class="slogan"> programming, fitness, usable psychology, and conscious growth</span>
 </template>
 
 <script>
@@ -19,11 +19,6 @@ export default {
   @media (min-width: $bp-tablet)
     margin-left: .25rem
     text-align: left
-
-.landing-container .site-header 
-  margin-top: 12px 
-  @media (min-width: $bp-tablet)
-    margin-top: 0
 
 .content-container .site-header
   @include dim-effect(.7, 1)
@@ -51,19 +46,19 @@ export default {
     font-size: .8rem
     letter-spacing: initial
     font-weight: 400
-    margin-top: -.75rem
+    margin-top: -.25rem
     @media (min-width: $bp-tablet)
       display: block
       color: #82a1b0
       font-size: 1.025rem
       letter-spacing: initial
       font-weight: 400
-      margin-top: -1.5rem
+      margin-top: -.75rem
       padding-left: .6rem
       text-align: left
 
 .landing-container .masthead
-  font-size: 2.6rem
+  font-size: 2.25rem
   @media (min-width: $bp-tablet)
     font-size: 5rem
 
