@@ -2,7 +2,7 @@
 div.site-container(:class="layoutStyle")
   SiteHeader
   div.site-content
-    AccordionNav(v-if="isLanding" :menu="menu" index="/articles")
+    AccordionNav(v-if="isLanding" :menu="menu" index="/essays")
     div.main
       nuxt
   HomeFooter.home-footer(v-if="isLanding")
@@ -14,7 +14,7 @@ import AccordionNav from '~/components/AccordionNav'
 
 export default {
   data: () => ({
-    menu: ['/', '/projects', '/now', '/about']
+    menu: ['/', '/songs', '/projects', '/now', '/about']
   }),
   computed: {
     isLanding () {

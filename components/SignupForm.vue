@@ -16,10 +16,6 @@ div.signup-form-container
 
 <script>
 export default {
-  props: {
-    display: { type: String, srequired: true },
-    toggle: { type: Function, required: true }
-  },
   data () {
     return {
       email: '',
