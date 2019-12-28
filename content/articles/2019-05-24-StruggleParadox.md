@@ -4,7 +4,9 @@ title: The struggle paradox
 description: Why founders share their success but not their journey.
 
 quote: |
-  Sing the song that only you can sing, write the book that only you can write, build the product that only you can build... live the life that only you can live. - Naval Ravikant
+  Sing the song that only you can sing, write the book that only you can write, build the product that only you can build... live the life that only you can live. 
+  <br>
+  - Naval Ravikant
 
 ---
 

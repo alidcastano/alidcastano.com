@@ -1,6 +1,10 @@
 ---
 title: (why? :lisp)
 description: Exploring Lisp's parenthesis and operator placement; or, the merits of a uniform, treelike syntax.
+quote: |
+ Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot.
+ <br>
+ - Eric Raymond
 ---
 
 I used to see Lisp code and wonder, how could anyone read that? But instead, what I should have asked is: why would anyone write that? Because, as I've come to learn, developers who read lisp do so for the same reason they write it: it's easy to think in. 

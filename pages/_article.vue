@@ -87,6 +87,10 @@ export default {
     margin-right: auto
   a 
     text-decoration: underline
+br 
+  display: block
+  content: " "
+  margin-top: 4px
   
 .article-closer
   margin-top: 3rem
@@ -97,6 +101,7 @@ export default {
   margin: 0 auto
   color: #838b95
   font-style: italic
+  font-size: .9rem
   @media (min-width: $bp-tablet)
     max-width: 85%
   a 
