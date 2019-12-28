@@ -1,8 +1,9 @@
 <template lang="pug">
 ul.accordion-nav.unlist(:style="accordionStyle")
-  li.nav-item(v-for="path in menu")
+  li.nav-item(v-for="path in menu.slice(0, menu.length - 1)")
     nuxt-link.nav-link(:to="path" exact) {{ (path === '/' ? index : path) | toTitle }}
-  slot
+  li.nav-item.last-nav-item(v-for="path in menu.slice(menu.length - 1, menu.length)")
+    nuxt-link.nav-link(:to="path" exact) {{ path | toTitle }}
 </template>
 
 <script>
@@ -38,6 +39,8 @@ export default {
 @import "../assets/sass/util"
 
 .accordion-nav
+  display: flex
+  flex-direction: row
   width: 95%
   max-width: 520px
   margin-bottom: 1.25rem
@@ -73,4 +76,6 @@ export default {
     border-right: 2px dashed $primary-light
     border-left: 2px dashed $primary-light
     border-bottom: 2px solid #fff
+.last-nav-item 
+  margin-left: auto
 </style>
