@@ -59,10 +59,11 @@ export default {
   margin-top: 8px
 
 .site-content 
+  flex: 1
   margin-bottom: 16px
 
 .landing-container
-  height: 90vh
+  height: 98vh
 
 .extra-menu-item
   display: none
