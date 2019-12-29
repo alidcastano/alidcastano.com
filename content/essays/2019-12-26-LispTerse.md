@@ -1,5 +1,5 @@
 ---
-title: (p2 (why? :lisp))
+title: (p2 (Why? :lisp))
 description: Exploring lisp's terseness; or, the merits of computer slang.
 draft: true
 ---
