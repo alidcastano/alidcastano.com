@@ -6,7 +6,7 @@ ContentContainer
       li.entry-group(v-for="[date, ents] in entriesByDate")
         h3.group-label {{ date }}
         ul.entry-list.list
-          li.entry-preview(v-for="entry in entries")
+          li.entry-preview(v-for="entry in ents")
             nuxt-link(:to="entry.path") {{ entry.title }}
             p.entry-description(v-if="entry.description") {{ entry.description }}
 </template>
