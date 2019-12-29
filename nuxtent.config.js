@@ -5,9 +5,9 @@ module.exports = {
       page: '/_essay',
       permalink: ':slug'
     }],
-    ['lyrics', {
-      page: '/_lyric',
-      permalink: 'l/:slug'
+    ['poems', {
+      page: '/_poem',
+      permalink: 'p/:slug'
     }],
     ['code', {
       // page: '/_code', // unused.
