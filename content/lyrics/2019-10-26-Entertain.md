@@ -1,5 +1,6 @@
 ---
 title: entertaining myself
+draft: true
 ---
 
 singers and rappers, I feel <br>
