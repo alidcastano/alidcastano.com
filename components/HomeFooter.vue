@@ -4,7 +4,7 @@ div.home-footer
     SignupForm
     p 
       | You can sign up for occasional email updates above.
-      | I'm also on <a href="https://mobile.twitter.com/alidcastano">twitter</a> and <a href="https://instagram.com/alidcastano/">instagram</a>,
+      | I'm also on <a href="https://mobile.twitter.com/alidlorenzo">twitter</a> and <a href="https://instagram.com/alidlorenzo/">instagram</a>,
       | or you can reach me directly at alidcastano@gmail.com.
 </template>
 
