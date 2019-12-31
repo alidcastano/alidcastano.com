@@ -4,22 +4,22 @@ description: The act of naming code well.
 draft: true
 ---
 
-It's said that there are only two hard things in computer science: cache invalidation and naming things. When I first read this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?
+It's said that there are only two hard things in computer science: cache invalidation and naming things. When I first came across this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?
 
 What's great about the quote though, is that even to well-versed programmers it reads as a joke. Like any good joke, it's painfully true.
 
-Naturally, I underestimated how hard naming code is. I figured  I'd be like trying to find the right synonym to use in a sentence, but it's more like trying to title an article you've yet to write. In programming, you have to pack a lot more meaning into a variable name, and code changes more than prose, so you don't even know how well that meaning will fit in the context of your application.
+Naturally, I underestimated how hard naming code is. I figured  I'd be like trying to find the right synonym to use in a sentence, but it's more like trying to name an article you've yet to write. In programming, you have to pack a lot more meaning into a variable name, and code changes more than prose, so you don't even know how well that meaning will fit in the context of your application.
 
-Yet, even that doesn't capture the difficulty of naming code. You can be vague when titling an article, since you're just trying to convince the reader to keep on reading. But when naming code, you're trying to do the opposite: to convince the reader that after reading your variable's name, they'll understand enough about it that its referenced code doesn't need reading. 
+Yet, even that doesn't capture the difficulty of naming code. You can be vague when naming an article since you're just trying to convince the reader to keep on reading. But when naming code, you're trying to do the opposite: to convince the reader that after reading your variable's name, they'll understand enough about it that its referenced code doesn't need reading. 
 
-If you choose a variable's name poorly, the concern isn't that someone will have to find its reference and read it. But that they'll interpret it incorrectly and continue on reading thinking they understand it. Until eventually they hit a line of code where meaning stonewalls, and they have to start again from the beginning to figure out why.  
+If you choose a variable's name poorly, the concern isn't that someone will have to find its reference and read it. But that they'll interpret it incorrectly and continue reading thinking they understand it. Until eventually they hit a line of code where meaning stonewalls, and they have to start again from the beginning to figure out why.  
 
 So, I think we can all agree, naming code well is hard, and important.
 But, while coding, it's like we don't think other people will think it is. Imagine, for example, justifying to a product manager that it took you five minutes to name a function. That's the sort of thought looming over our mind while we code. That surely, naming shouldn't be this difficult; we'd rather say we we're busy tracking down a bug instead.
 
-Why don't we treat the act of naming code as seriously amongst each other? I think it's because we don't yet have a fancy word that gives this process meaning.
+Why don't we treat the act of naming code as seriously amongst each other? I think it's because we don't have a fancy word for this process yet.
 
-Take, for example, the act of making code reusable. At the surface level, we're just moving code that already exists from one place to another, how hard could that be? But when we call it Abstraction, geez, somehow we to make this logic concrete enough for usage now yet generic enough for reuse later. All of a sudden, code reuse feels more justified. 
+Take, for example, the act of making code reusable. At the surface level, we're just moving code that already exists from one place to another, how hard could that be? But when we call it *Abstraction*, gee-whiz, somehow we to make this logic concrete enough for usage now yet generic enough for reuse later. All of a sudden, code reuse feels more justified. 
 
 Like abstraction, most obstacles that we encounter while coding occur in our minds. So for the hardest of coding tasks, we need to use fancy words to better capture their difficulty. 
 
@@ -42,4 +42,4 @@ Here are the roots of the word [appropriate](https://www.vocabulary.com/dictiona
 
 I do believe a programmer should feel like a variable name is "their own," and most code terminology does belong to "a particular group." So those two connotations work well. 
 
-Though, I'll admit, I was resistant to using appropriate due to the "stealing" connotation. It's often used in a negative sense, like "appropriating someone's culture". But I believe that, as a culture, we should consider our language as being MIT licensed. You might choose not to use certain words out of respect for others, but other than that, appropriating should be a good thing! As the saying goes, good programmers copy; great programmers appropriate.
+Though, I'll admit, I was resistant to using appropriate due to the "stealing" connotation. It's often used in a negative sense, like "appropriating someone's culture." But I believe that, as a programming culture, we should consider our language as being MIT licensed. You might choose not to use certain words out of respect for others, but other than that, appropriating should be a good thing! As the saying goes, good programmers copy; great programmers appropriate.
