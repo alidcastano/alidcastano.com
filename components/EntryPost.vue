@@ -2,7 +2,7 @@
 ContentContainer
   div.entry-lead(slot="lead")
     h1.entry-title {{ entry.title }}
-    h3(v-if="entry.description").entry-description {{ entry.description }}
+    // h3(v-if="entry.description").entry-description {{ entry.description }}
 
   section.entry-body(slot="content" :style="overrideMargin")
     div(v-html="entry.body")
@@ -23,6 +23,7 @@ export default {
   },
 
   head () {
+    console.log(`https://alidlo.com/img/${this.metaImage}`)
     return {
       title: 'Alid Castano | ' + this.entry.title,
       meta: [
@@ -31,20 +32,26 @@ export default {
         { name: 'og:title', content: this.entry.title },
         { name: 'og:description', content: this.entry.description },
         { name: 'og:type', content: 'website' },
-        { name: 'og:url', content: `https://alidcastano.com/${this.entry.permalink}` },
-        { name: 'og:image', content: `https://alidcastano.com/img/entrys/${this.entry.image}` },
+        { name: 'og:url', content: `https://alidlo.com/${this.entry.permalink}` },
+        { name: 'og:image', content: `https://alidlo.com/img/${this.metaImage}` },
         // Twitter Card
         { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:site', content: '@alidcastano' },
+        { name: 'twitter:site', content: '@alidlorenzo' },
         { name: 'twitter:title', content: this.entry.title },
         { name: 'twitter:description', content: this.entry.description },
-        { name: 'twitter:image', content: `https://alidcastano.com/img/entrys/${this.entry.image}` },
+        { name: 'twitter:image', content: `https://alidlo.com/img/${this.metaImage}` },
         { name: 'twitter:image:alt', content: this.entry.title }
       ]
     }
   },
 
   computed: {
+    metaImage () {
+      if (this.entry.metaImage) return `${this.imagePath}/${this.entry.metaImage}`
+      else if (this.entry.image) return `${this.imagePath}/${this.entry.image}`
+      return `meta-fallback.jpg`
+    },
+
     overrideMargin () {
       if (this.entry.title.length > 30) return { 'margin-left': '1rem' }
     }
