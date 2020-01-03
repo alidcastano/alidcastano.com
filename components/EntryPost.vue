@@ -6,7 +6,14 @@ ContentContainer
 
   section.entry-body(slot="content" :style="overrideMargin")
     div(v-html="entry.body")
-    // ShareWidgets(:entry="entry")
+    div.discuss-link(v-if="entry.twitter") Discuss on 
+      a(v-if="entry.twitter"
+        :href="`https://twitter.com/alidlorenzo/${entry.twitter}`"
+        target="_blank") 
+        | Twitter
+      a(v-if="entry.hackernews"
+        :href="`https://news.ycombinator.com/${entry.hackernews}`")
+        | Hackernews
 
   div.entry-closer(slot="closer")
     img.entry-image(v-if="entry.image" :src="`/img/${imagePath}/${entry.image}`")
@@ -124,4 +131,8 @@ br
       text-align: right
       position: relative 
       right: 2rem
+.discuss-link
+  color: darken(#838b95, 4)
+  a 
+    margin-right: 8px
 </style>
