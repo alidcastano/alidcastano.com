@@ -3,7 +3,7 @@ title: "News, sports, and pop-culture: My opinion"
 
 quote: |
   Great minds discuss ideas; average minds discuss events; small minds discuss people. 
-  - Eleanor Roosevelt
+  <br> - Eleanor Roosevelt
 ---
 
 The other day my friend said to me, “You value knowledge and being cultured. I still don't get it. How do you not read the news?”

@@ -8,7 +8,7 @@ image: stay-upwind.jpg
 quote: |
     Don't ignore your dreams; don't work too much;
     say what you think; cultivate friendships; be happy.
-    - Paul Graham
+    <br> - Paul Graham
 ---
 
 In the fall semester of my sophomore year, my friend and I got this random food app idea and decided to start a startup. We spent months developing the idea, working on the business plan and preparing the pitch deck. We came to a point where we felt ready to pitch to investors--only to confront the fact that we didn't have a product. Only well-thought out idea.
