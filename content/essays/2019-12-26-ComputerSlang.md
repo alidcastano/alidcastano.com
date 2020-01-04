@@ -1,7 +1,7 @@
 ---
 title: Let code be terse
 description: The merits of standardized computer slang.
-metaImage: chalkboard-art.jpg
+metaImage: chalkboard-teach.jpg
 
 twitter: status/1213525539157397504
 hackernews: item?id=21956551
@@ -35,15 +35,15 @@ How about this next line of code in Clojure:
 
 If you're not familiar with Clojure or functional programming, I imagine the above code is undecipherable. For Clojurist, however, the above snippet reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
 
-What [learning Lisp/Clojure](/lisp) helped me realize, often when we say code is too terse, or cryptic, it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level--you need to have the fingerprints of a language ingrained in your mind to be able to decode it.
+What learning Clojure helped me realize, often when we say code is too terse, or cryptic, it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level--you need to have the fingerprints of a language ingrained in your mind to be able to decode it.
 
 ### (measure :lang)
 
-What's the purpose of programming languages? In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
+What's the purpose of a programming language? In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
 
 > I think the point of a high-level language is to make your programs shorter. All other things (e.g. libraries) being equal, language A is better than language B if programs are shorter in A. (As measured by the size of the parse tree, obviously, not lines or characters.) 
 
-In the above quote, I believe Graham was talking specifically in regards to abstraction. But abstraction and abbreviation go hand in hand--in places where functionality is commonly used, shortening the code we write allows us to pack more meaning into a program.
+There's various factors that go into making code shorter, such as [the simplicity of the syntax](/lisp) and type of abstractions we create. But front and center to all that is the names we give our code. Abbreviation is yet another way to pack more meaning into a program.
 
 Code, after all, is an evolving language. We come to understand it based upon mutually understood words and functions, but overtime, we make it shorter--with slang. Programming syntax is standardized computer slang. Some is universally known amongst programmers, some only exists in certain programming languages or styles or programming, and even less known are those which are specific to libraries and applications themselves. 
 
