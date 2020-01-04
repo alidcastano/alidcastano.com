@@ -1,7 +1,10 @@
 ---
-title: Let your code be terse
+title: Let code be terse
 description: The merits of standardized computer slang.
-metaImage: code.jpg
+metaImage: chalkboard-art.jpg
+
+twitter: status/1213525539157397504
+hackernews: item?id=21956551
 ---
 
 When I hear the word "terse", I tend to associate it with a negative meaning. With programming, specifically, I think of code that's not only heavily abbreviated, but hard to understand.
@@ -30,9 +33,9 @@ How about this next line of code in Clojure:
 (assoc m k v)
 ```
 
-If you're not familiar with Clojure or functional programming, I imagine the above code is not just terse but cryptic. For Clojurist, however, the above snippet reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
+If you're not familiar with Clojure or functional programming, I imagine the above code is undecipherable. For Clojurist, however, the above snippet reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
 
-What [learning Lisp/Clojure](/lisp) helped me realize, is often when we say code is too terse, or "cryptic," it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level. You need to have the fingerprints of a language ingrained in your mind to be able to decode what its code does.
+What [learning Lisp/Clojure](/lisp) helped me realize, often when we say code is too terse, or cryptic, it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level--you need to have the fingerprints of a language ingrained in your mind to be able to decode it.
 
 ### (measure :lang)
 
