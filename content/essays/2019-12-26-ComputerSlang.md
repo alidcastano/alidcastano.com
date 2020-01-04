@@ -1,16 +1,9 @@
 ---
-title: (p2 (Why? :Lisp))
-description: Exploring lisp's terseness; or, the merits of computer slang.
-draft: true
+title: Let programming languages be terse
+description: The merits of standardized computer slang.
 ---
 
-In my [last essay](/lisp-simple), I explored why I've enjoyed learning Lisp: the realization that its seemingly excessive parenthesis and unusual operator placements are features, not bugs, of the language. They establish a uniform, treelike syntax that makes it easy to build on top of the language with macros.
-
-There's one more contention, however, that programmers usually have with Lisp which I've yet to address: why is the code so terse? 
-
-### (def terse)
-
-When I hear the word "terse", I tend to associate it with a negative meaning. With programming, for example, I think of code that's not only heavily abbreviated, but hard to understand.
+When I hear the word "terse", I tend to associate it with a negative meaning. With programming, specifically, I think of code that's not only heavily abbreviated, but hard to understand.
 
 The definition of terse, however, reads positively:
 
@@ -38,9 +31,7 @@ How about this next line of code in Clojure:
 
 If you're not familiar with Clojure or functional programming, I imagine the above code is not just terse but cryptic. For Clojurist, however, the above snippet reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
 
-What learning Lisp helped me realize is often when we say code is too terse, or "cryptic," it's because we don't know its language well enough to understand it; so we can't help but judge it at the surface level. One needs to have the fingerprints of a language ingrained in their mind to be able to decode it.
-
-So that's why Lisp is specially judged for it's terseness more than other languages: with macros, there's more meta languages you have to account for, so the terseness of syntax is embraced further. Sitting at the top, in fact, is the language you use to model your application's logic.
+What [learning Lisp/Clojure](/lisp) helped me realize, is often when we say code is too terse, or "cryptic," it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level. You need to have the fingerprints of a language ingrained in your mind to be able to decode what its code does.
 
 ### (measure :lang)
 
@@ -56,5 +47,5 @@ As the standard, we should want our programming language to be as terse as possi
 
 What's wonderful about a computer is it'll speak any language you throw at it so long as the code compiles. So, runtime errors aside, the ultimate test of your code is the program itself. You don't have to convince a programmer to read your code if your application already motivates them for you.
 
-So what programming language will help you create applications worth running? Since it's takes lots of iteration to arrive at a good idea, I personally want a language that's as as close to my thoughts as possible. And that, I believe, is the appeal of Lisp. Along with being simple, it's terse. Lisp's syntax is closer to scribbles written to preserve a thought than prose written to transmit an idea; as I use it, I feel like I can turn my scribbles of code into eloquent programs!
+So, it's worth asking, what programming language will help you create applications worth running? It's takes lots of iteration to arrive at a good idea, so personally, I want a language that's as as close to my thoughts as possible. That, I believe, is the appeal of terse code: it's closer to scribbles written to preserve a thought than prose written to transmit an idea; as I write it, I can turn my scribbles of code into eloquent programs!
 
