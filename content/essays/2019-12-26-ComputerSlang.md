@@ -1,6 +1,7 @@
 ---
-title: Let programming languages be terse
+title: Let your code be terse
 description: The merits of standardized computer slang.
+metaImage: code.jpg
 ---
 
 When I hear the word "terse", I tend to associate it with a negative meaning. With programming, specifically, I think of code that's not only heavily abbreviated, but hard to understand.
@@ -11,9 +12,9 @@ The definition of terse, however, reads positively:
 using few words : devoid of superfluity
 ```
 
-I'd deem it good for a programming language not to have superfluous syntax. So why do we tend to dislike terse code? 
+Shouldn't it be good for a programming language not to have superfluous syntax? So why do we tend to dislike terse code? 
 
-Take, for example, the snippet of code below: 
+Examine, for example, the snippet of code below: 
 
 ```js
 for (let i = 0; i < arr.length - 1; i++) { /* TODO */ }
@@ -41,9 +42,9 @@ What's the purpose of programming languages? In a [hackernews post announcing Be
 
 In the above quote, I believe Graham was talking specifically in regards to abstraction. But abstraction and abbreviation go hand in hand--in places where functionality is commonly used, shortening the code we write allows us to pack more meaning into a program.
 
-Code, after all, is an evolving language. We come to understand it based upon mutually understood words and functions, but overtime, we make it shorter--with slang. Programming syntax is standardized computer slang. Some is universally known amongst programmers, some only exists in certain programming languages or styles or programming, and even less known are those which are specific to libraries and applications themselves.
+Code, after all, is an evolving language. We come to understand it based upon mutually understood words and functions, but overtime, we make it shorter--with slang. Programming syntax is standardized computer slang. Some is universally known amongst programmers, some only exists in certain programming languages or styles or programming, and even less known are those which are specific to libraries and applications themselves. 
 
-As the standard, we should want our programming language to be as terse as possible. With powerful abstractions, of course, but also concise variables for referring to them. Because the shorter your program, the more code you can see at once, and [the more of your program you can hold in your head](http://www.paulgraham.com/head.html).
+As the standard, we should want our programming language to be as terse as possible. With powerful abstractions, of course, but also succinct variables for referring to them. Such terse code might be harder to read at first glance, but a program shouldn't be written for someone who'll superficially look at it, but for someone who'll take the time to fully understand it. So the higher your standard for a fellow programmer, the terser your code should be. Because the shorter your code, [the more of your program you can hold in your head](http://www.paulgraham.com/head.html).
 
 What's wonderful about a computer is it'll speak any language you throw at it so long as the code compiles. So, runtime errors aside, the ultimate test of your code is the program itself. You don't have to convince a programmer to read your code if your application already motivates them for you.
 
