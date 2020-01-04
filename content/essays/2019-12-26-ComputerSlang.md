@@ -41,7 +41,7 @@ What learning Clojure helped me realize, often when we say code is too terse, or
 
 What's the purpose of a programming language? In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
 
-> I think the point of a high-level language is to make your programs shorter. All other things (e.g. libraries) being equal, language A is better than language B if programs are shorter in A. (As measured by the size of the parse tree, obviously, not lines or characters.) 
+> I think the point of a high-level language is to make your programs shorter. All other things (e.g. libraries) being equal, language A is better than language B if programs are shorter in A.
 
 There's various factors that go into making code shorter, such as [the simplicity of the syntax](/lisp) and type of abstractions we create. But front and center to all that is the names we give our code. Abbreviation is yet another way to pack more meaning into a program.
 

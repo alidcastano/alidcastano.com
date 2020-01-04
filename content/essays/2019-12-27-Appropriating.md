@@ -1,6 +1,6 @@
 ---
 title: (appropriating)
-description: The act of naming code well.
+description: The act of naming code well, taken seriously.
 draft: true
 ---
 
@@ -17,9 +17,9 @@ If you choose a variable's name poorly, the concern isn't that someone will have
 So, I think we can all agree, naming code well is hard, and important.
 But, while coding, it's like we don't think other people will think it is. Imagine, for example, justifying to a product manager that it took you five minutes to name a function. That's the sort of thought looming over our mind while we code. That surely, naming shouldn't be this difficult; we'd rather say we we're busy tracking down a bug instead.
 
-Why don't we treat the act of naming code as seriously amongst each other? I think it's because we don't have a fancy word for this process yet.
+Why don't we treat the act of naming code as seriously amongst each other? I think it's because we don't yet have a fancy word for this process.
 
-Take, for example, the act of making code reusable. At the surface level, we're just moving code that already exists from one place to another, how hard could that be? But when we call it *Abstraction*, gee-whiz, somehow we to make this logic concrete enough for usage now yet generic enough for reuse later. All of a sudden, code reuse feels more justified. 
+Take, for example, the act of making code reusable. At the surface level, we're just moving code that already exists from one place to another, how hard could that be? But when we call it *Abstraction*, gee-whiz, somehow we have to make this logic concrete enough for usage now yet generic enough for reuse later. All of a sudden, code reuse feels more justified. 
 
 Like abstraction, most obstacles that we encounter while coding occur in our minds. So for the hardest of coding tasks, we need to use fancy words to better capture their difficulty. 
 
