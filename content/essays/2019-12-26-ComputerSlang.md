@@ -43,11 +43,11 @@ What's the purpose of a programming language? In a [hackernews post announcing B
 
 > I think the point of a high-level language is to make your programs shorter. All other things (e.g. libraries) being equal, language A is better than language B if programs are shorter in A.
 
-There's various factors that go into making code shorter, such as [the simplicity of the syntax](/lisp) and type of abstractions we create. But front and center to all that is the names we give our code. Abbreviation is yet another way to pack more meaning into a program.
+There's various factors that go into making code shorter, such as [the simplicity of the syntax](/lisp) and type of abstractions we create. But front and center to all that is the names we give our code. Shortening variable names, where appropriate, help to pack more meaning into a program.
 
 Code, after all, is an evolving language. We come to understand it based upon mutually understood words and functions, but overtime, we make it shorter--with slang. Programming syntax is standardized computer slang. Some is universally known amongst programmers, some only exists in certain programming languages or styles or programming, and even less known are those which are specific to libraries and applications themselves. 
 
-As the standard, we should want our programming language to be as terse as possible. With powerful abstractions, of course, but also succinct variables for referring to them. Such terse code might be harder to read at first glance, but a program shouldn't be written for someone who'll superficially look at it, but for someone who'll take the time to fully understand it. So the higher your standard for a fellow programmer, the terser your code should be. Because the shorter your code, [the more of your program you can hold in your head](http://www.paulgraham.com/head.html).
+As the standard, a programming language to be as terse as possible. Such terse code might be harder to read at first glance, but a program shouldn't be written for someone who'll superficially look at it, but for someone who'll take the time to fully understand it and [hold it in their head](http://www.paulgraham.com/head.html). So, rather than embracing readability, embrace succinctness.
 
 What's wonderful about a computer is it'll speak any language you throw at it so long as the code compiles. So, runtime errors aside, the ultimate test of your code is the program itself. You don't have to convince a programmer to read your code if your application already motivates them for you.
 

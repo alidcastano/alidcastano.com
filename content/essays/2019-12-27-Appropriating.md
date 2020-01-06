@@ -15,7 +15,7 @@ Naturally, I underestimated how hard naming code is. I figured  I'd be like tryi
 
 Yet, even that doesn't capture the difficulty of naming code. You can be vague when naming an article since you're just trying to convince the reader to keep on reading. But when naming code, you're trying to do the opposite: to convince the reader that after reading your variable's name, they'll understand enough about it that its referenced code doesn't need reading. 
 
-If you choose a variable's name poorly, the concern isn't that someone will have to find its reference and read it. But that they'll interpret it incorrectly and continue reading thinking they understand it. Until eventually they hit a line of code where meaning stonewalls, and they have to start again from the beginning to figure out why. 
+If you choose a variable's name poorly, the concern isn't that someone will have to find its reference and read it. But that they'll misinterpret it and continue reading thinking they understand it. Until eventually they hit a line of code where meaning stonewalls, and they have to start again from the beginning to figure out why. 
 
 So, I think we can all agree, naming code well is hard, and important.
 But, while coding, it's like we don't think other people will think it is. Imagine, for example, justifying to a product manager that it took you five minutes to name a function. That's the sort of thought looming over our mind while we code. That surely, naming shouldn't be this difficult; we'd rather say we we're busy tracking down a bug instead.
