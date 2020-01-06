@@ -110,8 +110,8 @@ br
   margin-top: 2px
   
 .entry-closer
-  margin-top: 3rem
-  margin-bottom: 4rem
+  margin-top: 5rem
+  margin-bottom: 5rem
 .entry-image
   margin: .5rem auto 1rem auto
 .entry-quote

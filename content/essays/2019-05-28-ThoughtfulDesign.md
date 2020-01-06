@@ -46,7 +46,7 @@ I can go on and on picking apart the utility of different note-taking apps. What
 
 Even above one feature or another, in the user’s mind, is the surface level appearance of the product itself. Just like the vibe of a restaurant sets its mood, the vibe of an app sets its atmosphere. As we hunch over to stare at a small screen, minor details and their associations leave an impression on us and impact how feel while using a product.
 
-There are serveral factors that give an app a certain presence in a users mind. The way navigation is structured—horizontal or vertical; or how the notification system is setup—are you a friend, follower, or subscriber. Each feature has certain implications that give shape to the interaction. But in thinking about what it means to feel an app, and vibe with it, in each app I considered the most noticable impression came from its colors. 
+There are several factors that give an app a certain presence in a users mind. The way navigation is structured—horizontal or vertical; or how the notification system is setup—are you a friend, follower, or subscriber. Each feature has certain implications that give shape to the interaction. But in thinking about what it means to feel an app, and vibe with it, in each app I considered the most noticeable impression came from its colors. 
 
 It’s enlightening, for example, to compare the main colors app and its core user. In the case of note apps: Evernote’s colors are green and black; these are the colors of money and late nights, so it’s fitting that their core user is working professionals. Onenote’s color is purple; I can’t readily think of anything that’s purple besides a flower, so putting this color on app seems elaborate and artificial; which is also fitting, since Onenote’s core user is students. As you make an app you get a feel what colors it should have, even if you can’t explain why until you associate them with its intended audience.
 
@@ -86,4 +86,4 @@ I think about thoughtful design a lot, because I believe it's crucial to creatin
 
 As I summarize these takeaways, it does feel like a lot to ask for. But maybe that’s a sign of untapped experiences online. At the very least, thoughtful design is worth aiming for. Who knows, there could be new, emergent behaviors left to be discovered from it.
 
-*[If you’d like to hear more about what I’m working on, or are interested  in chatting about thoughtful design, you’re welcome to email me at alid@studbits.com.]*
+*[If you’d like to hear more about what I’m working on, or are interested  in chatting about thoughtful design, you’re welcome to email me at alidcastano@gmail.com.]*
