@@ -4,6 +4,7 @@ description: The act of naming code well, taken seriously.
 quote: |
   "There are two hard problems in computer science: cache invalidation, naming things, and off-by-1 errors."
   <br> - Leon Bambrick
+metaImage:  baby-names.png
 ---
 
 It's said that there are only two hard things in computer science: cache invalidation and naming things. When I first came across this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?
@@ -40,6 +41,6 @@ Here are the roots of the word [appropriate](https://www.vocabulary.com/dictiona
 
 > The adjective appropriate is used when something is suitable or fitting. It comes from the Latin appropriare, which means "to make something fit, to make something one's own." Going back even further, appropriate is related to the Latin word proprius, "to belong to a person, thing, or group." Another appropriate way to use this word is as a verb, meaning to steal or seize something, the way you'd appropriate your sister's sandwich if she left it sitting near you.
 
-I do believe a programmer should feel like a variable name is "their own," and most code terminology does belong to "a particular group." So those two connotations work well. 
+When someone names code they are indeed making it "their own," and most code terminology does belong to "a particular group," whether it be functional programmers or Javascript developers, etc. So those two connotations work well. 
 
 Though, I'll admit, I was resistant to the "stealing" connotation. Appropriate is often used in a negative sense, like "appropriating someone's culture." But I believe that, as a programming culture, we should consider our language as being MIT licensed. You might choose not to use certain words out of respect for others, but other than that, appropriating should be a good thing! As the saying goes, good programmers copy; great programmers appropriate.
