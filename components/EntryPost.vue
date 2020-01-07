@@ -111,7 +111,7 @@ br
   
 .entry-closer
   margin-top: 5rem
-  margin-bottom: 5rem
+  margin-bottom: 7rem
 .entry-image
   margin: .5rem auto 1rem auto
 .entry-quote
