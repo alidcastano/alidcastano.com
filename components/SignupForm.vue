@@ -4,12 +4,13 @@ div.signup-form-container
       p.success(v-if="result && result === 'sucess'") Email received. Thanks for subscribing, {{ firstName }}!
       p.error(v-else-if="result && result === 'failure'") Error occurred. Please try again later.
   div.signup-form(v-else)
-    input.signup-field(
-      type="text" placeholder="Your Name" name="name" v-model="firstName" :disabled="!!result"
-    )
-    input.signup-field(
-      type="email" placeholder="Your Email" name="email" v-model="email" :disabled="!!result"
-    )
+    div.signup-fields 
+      input.signup-field(
+        type="text" placeholder="Your Name" name="name" v-model="firstName" :disabled="!!result"
+      )
+      input.signup-field(
+        type="email" placeholder="Your Email" name="email" v-model="email" :disabled="!!result"
+      )
     button.send-button(v-on:click="submitForm") Sign up
   p.error.field-msg(v-if="errors.length > 0") {{ errors[0] }}
 </template>
@@ -82,14 +83,21 @@ $hide-bottom-pos: -100%
   align-items: center
   justify-content: center
   height: 100%
-  
+
+.signup-fields 
+  flex-direction: row 
+  margin-bottom: 8px
+  @media (min-width: $bp-tablet)
+    margin-bottom: 0
+
 .signup-form
   position: relative
   display: flex 
-  flex-direction: row 
-  align-items: center 
+  flex-direction: column
+  @media (min-width: $bp-tablet)
+    flex-direction: row 
+    align-items: center 
   .signup-field
-    display: block
     margin-right: 12px
     background: linear-gradient(to top, $primary-light, #fff 30%)
     border: 1px solid $primary-light

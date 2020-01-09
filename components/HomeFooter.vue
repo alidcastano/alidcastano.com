@@ -6,7 +6,7 @@ div.home-footer
       | You can sign up for occasional email updates above.
       | I'm also on <a href="https://mobile.twitter.com/alidlorenzo">twitter</a>,
       | <a href="https://instagram.com/alidlorenzo/">instagram</a>,
-      | and <a href="https://github.com/alidlos">github</a>,
+      | and <a href="https://github.com/alidlo">github</a>,
       | or you can reach me directly at alidcastano@gmail.com.
 </template>
 

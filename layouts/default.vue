@@ -62,11 +62,6 @@ export default {
   @media (min-width: $bp-tablet)
     margin-top: 16px
 
-.home-footer
-  display: none
-  @media (min-width: $bp-tablet)
-    display: flex 
-
 .site-content 
   flex: 1
   margin-bottom: 16px
