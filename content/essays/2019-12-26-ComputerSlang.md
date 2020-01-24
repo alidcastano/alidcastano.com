@@ -33,9 +33,9 @@ How about this next line of code in Clojure:
 (assoc m k v)
 ```
 
-If you're not familiar with Clojure or functional programming, I imagine the above code is undecipherable. For Clojurist, however, the above snippet reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
+If you're not familiar with Clojure or functional programming, I imagine the above code is hard to understand. For Clojurist, however, it reads plainly: `assoc` stands for `associate`, `m` for map, `k` for key, and `v` for value; the expression returns a map with the newly associated key-value pairs. This sort of functionality is well-known in Clojure so abbreviations help short circuit understanding.
 
-What learning Clojure helped me realize, often when we say code is too terse, or cryptic, it's because we don't know its language well enough to understand it. So we can't help but judge it at the surface level--you need to have the fingerprints of a language ingrained in your mind to be able to decode it.
+What learning Clojure helped me realize, often when we say code is too terse, or cryptic, it's because we don't know its language well enough. We can't help but judge it at the surface level--you need to have the fingerprints of the language ingrained in your mind to be able to decode it.
 
 ### (measure :lang)
 
