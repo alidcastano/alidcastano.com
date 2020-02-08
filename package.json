@@ -5,7 +5,9 @@
   "author": "Alid Castano <alidcastano@gmail.com>",
   "dependencies": {
     "@nuxtjs/axios": "3.1.0",
+    "@nuxtjs/feed": "^1.1.0",
     "@nuxtjs/google-analytics": "1.0.0",
+    "axios": "^0.19.1",
     "nuxt": "^1.0.0-rc3",
     "nuxtent": "^0.2.73"
   },

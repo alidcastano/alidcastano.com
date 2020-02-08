@@ -9,11 +9,9 @@ twitter: status/1214344182900428801
 hackernews: item?id=21975311
 ---
 
-It's said that there are only two hard things in computer science: cache invalidation and naming things. When I first came across this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?
+It's said that there are two hard things in computer science: cache invalidation and naming things. When I first came across this quote I was learning to code, so my first thought was: seriously, how hard could naming things be?
 
-What's great about the quote though, is that even to well-versed programmers it reads as a joke. Like any good joke, it's painfully true.
-
-Naturally, I underestimated how hard naming code is. I figured  I'd be like trying to find the right synonym to use in a sentence, but it's more like trying to name an article you've yet to write. In programming, you have to pack a lot more meaning into a variable name, and code changes more than prose, so you don't even know how well that meaning will fit in the context of your application.
+What's great about the quote though, is that even to well-versed programmers it reads as a joke. Like any good joke, it's painfully true. Naming code is hard. I figured  I'd be like trying to find the right synonym to use in a sentence, but it's more like trying to name an article you've yet to write. In programming, you have to pack a lot more meaning into a variable name, and code changes more than prose, so you don't even know how well that meaning will fit in the context of your application.
 
 Yet, even that doesn't capture the difficulty of naming code. You can be vague when naming an article since you're just trying to convince the reader to keep on reading. But when naming code, you're trying to do the opposite: to convince the reader that after reading your variable's name, they'll understand enough about it that its referenced code doesn't need reading. 
 

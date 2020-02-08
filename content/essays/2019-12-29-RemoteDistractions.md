@@ -6,27 +6,24 @@ description: Why I'm spending the next few months living with my Mom instead of 
 quote: |
   Be regular and orderly in your life, so that you may be violent and original in your work.
   <br /> - Gustave Flaubert
-
-draft: true
 ---
 
-I’m lucky enough to work remotely. So I can work from anywhere in the world. Yet, for the past two months, I've chosen to be in Minneapolis, where my parents live. I came back for the holidays and had thought about leaving right after to escape the cold winter and start the new year in Mexico. But instead, I stayed here.
+I’m lucky I work remotely. I can work from anywhere in the world. Yet, for the past three months, I've been in Minneapolis, living with my Mom. I came back for Thanksgiving and Christmas, and planned to leave right after, to escape the winter here and start the new year in Mexico. But no, instead, I stayed here.
 
-I'll admit, I spent a day searching reddit for hipster neighborhoods in Mexico City and looking at flights and airbnbs. But it was doing that that made me think: what the hell am I doing? I don't care to be traveling right now, I have a lot in the backlog of my mind and would much rather spend my days at home writing and coding.
+I did, I'll admit, spend a day searching reddit for hipster neighborhoods in Mexico City and looking at flights and airbnbs. But it was doing that that made me think: what the hell am I doing? I don't care to be traveling right now, I have a lot in the backlog of my mind and would much rather spend my days at home writing and coding.
 
-My focus isn't travel, but work. I'd rather live like a king in Latin America than spend $3k in rent/month in San Francisco; but, if I'm true to myself, I'd rather lock myself up at home for a few months, if that means being able to work without distractions.
+My focus isn't travel, but work. I'd rather live like a king in Latin America than spend $3k in rent/month in San Francisco; but, if I'm true to my goals, I'd also rather live with my Mom for a few months, if that means being able to work without distractions.
 
-When I travel, I spend the majority of my day doing what I'd be doing at home: sitting at a computer, drinking coffee, working. Except, since I just arrived in a new city, I feel like I need to be out exploring! Whereas at home, it's understood to be boring. So all the adventure can reside inside in my mind. And, at least for the next few months, that's how I want it to be.
+When I travel, I spend the majority of my day doing what I'd be doing at home: sitting at a computer, drinking coffee, working. Except, since I just arrived in a new city, I feel I should be out exploring! Whereas at home, it's understood to be boring. So all the adventure resides inside in my head--and, at least for the next few months, that's how I'd like it to be.
 
-Ideally, I'd have the mental fortitude to work like a hermit longer. But there's a lot at play that prevents me from doing so, and I'd like to try and pick those reasons apart.
-
+Ideally, I'd have the mental fortitude to work like a hermit longer. But there's an overarching feeling that prevents me from wanting to doing so. "Burnout" is the typical way to describe it, but I used to think it didn't effect me, and not sure that specfically is the sympthom I feel, nor do I think it's a useful descriptor.
 #### Appearances
 
-For starters, I used to be embarrassed about saying I'm living with my Mom. But now that I can work from anywhere, it doesn't bother me as much. It seems that what matters in appearances is the display of freedom, and it's just easier to show you have it as you travel through Asia and Latin America. Who's going to believe I choose to stay at home and work? But at this point in my life, that's what I'd prefer to be doing.
+For starters, I used to get embarrassed saying I'm living with my Mom. But now that I can work from anywhere, it doesn't bother me as much. It seems that what matters in appearances is the display of freedom, and it's just easier to show you have it as you travel through Asia and Latin America. Who's going to believe I choose to stay at home and work? But at this point in my life, that's what I'd prefer to be doing.
 
 Though even if I could subvert caring about appearances, I don't think living with one's parents too long is healthy. At least not in my situation. My mom lives 45 mins away from downtown, and the closest coffee shop is 6 minutes away driving. So I don't leave the house or socialize much while here. For a few months to focus on work, that's exactly what I'm looking for, but anything longer can get depressing.
 
-So to some extent, then, it's healthy to make appearances. To go out and socialize and live in the real world. It's easier for me to do that while traveling, since I can cheaply live in the center of where things are happening. The grocery store, gym, and coffee shop are a few blocks away, and the mall and disco aren't much further. I have all the amenities I need to balance work and play.
+So to some extent, then, it's healthy to make appearances. To go out and socialize and live in the real world. It's easier for me to do that while traveling, since I can cheaply live in the center of where things are happening. The grocery store, gym, and coffee shop are a few blocks away, and the mall and club aren't much further. I have all the amenities I need to balance work and play.
 
 But sometimes all I want to do is work. So in those times, remote work makes me feel like the only kid in recess who stayed inside to do their homework. I'm doing what I want to be doing, but it feels wrong. I believe most unhappiness is caused by these sort of unresolved value conflicts. So it's important to know what one wants, and to learn to be shameless about wanting it.
 
