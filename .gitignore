@@ -1,5 +1,6 @@
 # dependencies
 node_modules
+content/temp 
 
 # logs
 npm-debug.log
