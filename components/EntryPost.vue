@@ -30,7 +30,6 @@ export default {
   },
 
   head () {
-    console.log(`https://alidlo.com/img/${this.metaImage}`)
     return {
       title: 'Alid Castano | ' + this.entry.title,
       meta: [
