@@ -20,8 +20,8 @@ Of course, many of these considerations will be based on personal preference. My
 11. A poorly named function is as bad as a poorly constructed one. Code won't work the way you expect because of some bug in understanding and you have to use up valuable programmer time figuring out why. 
 12. Naming has a two-fold effect: along with aiding understanding, it shapes what you feel you can or can't do with something.  In that way, a good name lends itself to its appropriate usage. So name your code wisely, and listen to it even more so.
 
-There's a subtly to a name that you feel while coding. When we're typing a variable out, or reading it, or tossing its code around in our minds. Its presence is felt. So while some of this list might be personal preference, there's an underlying importance to naming that's worth considering.
+There's a subtlety to a name that you feel while coding. When we're typing a variable out, or reading it, or tossing its code around in our minds. Its presence is felt. So while some of this list might be personal preference, there's an underlying importance to naming that's worth considering.
 
 *Notes*
 
-[1]: A lot of these considerations were made explicit to me while reading Clojure code (as anyone familiar with Clojure will likely notice from the examples). There's something about having the right syntax and core language that encourages developers to be more expressive, whereas it feels like a yearning that was forced to stay dormant in me when the only language I knew was Javascript.
+[1]: A lot of these considerations were made explicit to me while reading Clojure code (as anyone familiar with Clojure will likely notice from the examples). There's something about having the right syntax and core language to encourage developers to be more expressive, whereas when the only language I knew was Javascript, it was as if expressiveness was a yearning forced to stay dormant.
