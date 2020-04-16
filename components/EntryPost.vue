@@ -104,6 +104,9 @@ export default {
     font-size: .9rem
   a 
     text-decoration: underline
+  li 
+    margin-bottom: 8px
+
 br 
   display: block
   content: " "
