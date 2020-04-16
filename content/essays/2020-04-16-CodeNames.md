@@ -1,6 +1,8 @@
 ---
 title: 12 Considerations For Naming Code Well
 description: Naming code to be more expressive.
+twitter: status/1250904679204216835
+hackernews: item?id=22893951
 ---
 
 Naming code well, or as I appropriated it my last essay, [appropriating](/appropriating), is front and center to what we do as programmers. Yet, there isn't much discussion online on what it means to name code well. In a way, it's a sensibility you pick up and get better at as you program. But there's general considerations that make good code names more evident, so it'd help to specify what they are. 
@@ -20,7 +22,7 @@ Of course, many of these considerations will be based on personal preference. My
 11. A poorly named function is as bad as a poorly constructed one. Code won't work the way you expect because of some bug in understanding and you have to use up valuable programmer time figuring out why. 
 12. Naming has a two-fold effect: along with aiding understanding, it shapes what you feel you can or can't do with something.  In that way, a good name lends itself to its appropriate usage. So name your code wisely, and listen to it even more so.
 
-There's a subtlety to a name that you feel while coding. When we're typing a variable out, or reading it, or tossing its code around in our minds. Its presence is felt. So while some of this list might be personal preference, there's an underlying importance to naming that's worth considering.
+There's a subtlety to a name that you feel while coding. When we're typing a variable out, or reading it, or tossing its code around in our minds. Its presence is felt. So while some of this list might be personal preference, there's an undeniable importance to naming that's worth considering.
 
 *Notes*
 
