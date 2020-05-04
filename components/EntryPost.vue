@@ -94,11 +94,19 @@ export default {
     @media (min-width: $bp-tablet)
       font-size: 1rem
 .entry-body
-  font-family: Spectral,serif;
+  font-family: Spectral,serif
+  h2 
+    font-size: 1.25rem
+    margin-top: 16px;
+    margin-bottom: 12px;
   hr 
     width: 90%
     margin-left: auto
     margin-right: auto
+  pre
+    @media (min-width: $bp-desktop) 
+      margin-left: -24px;
+      margin-right: -48px;
   code 
     font-size: .9rem
   a 
