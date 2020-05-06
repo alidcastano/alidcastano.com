@@ -11,6 +11,9 @@ ContentContainer
         :href="`https://twitter.com/alidlorenzo/${entry.twitter}`"
         target="_blank") 
         | Twitter
+      a(v-if="entry.reddit"
+        :href="`https://reddit.com/${entry.reddit}`")
+        | Reddit 
       a(v-if="entry.hackernews"
         :href="`https://news.ycombinator.com/${entry.hackernews}`")
         | Hackernews
