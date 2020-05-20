@@ -9,7 +9,7 @@ quote: |
 
 ---
 
-Whenever I discover a startup I like, I look into its story. The founder in me wants to know: what it was like in the beginning?  Ideally, I’d like to find a video of its founders when they were young or some essay they wrote sharing their journey—as it was happening. But instead, what I usually find a is a key-note speech they gave recollecting their story. The ups and down are there, but it doesn’t fully capture what it was like. The only real artifact we end up with is a picture of them in their twenties, smiling, next to an extinct desktop computer.
+Whenever I discover a startup I like, I look into its story. The founder in me wants to know: what it was like in the beginning?  Ideally, I’d like to find a video of its founders when they were young or some essay they wrote sharing their journey—as it was happening. But instead, what I usually find a is a key-note speech they gave recollecting their story. The ups and down are there, but it doesn’t fully capture what it was like. The only artifact we end up with is a picture of them in their twenties, smiling, next to some extinct 1980s desktop computer.
 
 Why don’t more entrepreneurs share their journey as it happens? I imagine not everyone who’s successful cares about eventually motivating others to do the same. I, however, wanted to be a motivational speaker before I wanted to start a startup (yes, really), so sharing the ins and outs and ups and downs of starting a company is something I always cared about. Yet, I’ve been working on a startup for a year now and have yet to share a single experience. So what has prevented me from doing so?
 
@@ -21,11 +21,11 @@ But if I’m honest, the hardest part of sharing my journey isn’t the lack of 
 
 It's enlightening to consider the dichotomy of struggling and success: while you’re trying to make it, you feel inferior because you're struggling more than others; but after you’ve made it, you feel superior because you struggled more than others. Hence, why the majority of founders only share their failures after-the-fact: their success finally justified their struggle, and made it a story worth telling.
 
-In theory, the merit in sharing one’s struggle should be determined by one’s trust in things eventually working out. In practice, these thought processes don’t happen together. I started working on a startup because I’m ambitious and believe I could create my idea; only after did I realize how hard it would be to make that happen. But since I now spend the majority of my time working, I rarely have time to reconsider my initial assumption: *can I actually do it?*
+In theory, the merit in sharing one’s struggle should be determined by one’s trust in things eventually working out. In practice, these thought processes don’t happen together. I started working on a startup because I’m ambitious and believed I could create an idea I had; only after did I realize how little I understood about it and how hard it would be to make that happen. But since I now spend the majority of my time working, I rarely have time to reconsider my initial assumption: *can I actually do it?*
 
 What’s most unsettling about this question, isn’t that the answer might be no—that would at least give me peace of mind. But that there’s no way to truly know the answer without living through the truth of it. So as long as I believe in what I’m working on, it’s pointless to question my ability to do it.
 
 Yet, in preemptively sharing my journey, that’s exactly what I’m asking someone to do. Implicit in what I’m sharing is the question: *is he actually capable of doing it?* So that’s what makes sharing the journey hard: it forces me to slow down and openly embrace this uncertainty. 
 
-But slowing down to capture these details and share them is what'll make the experience real years from now. Being open in the face of uncertainty is skin in the game. So despite my ego resistance to doing that, I’d like to start sharing more of my journey. Because I'd like you to see me not just for who I become, but for who I am, in it’s entirety. 
+But slowing down to capture these details and share them is what'll make the experience real years from now. Being open in the face of uncertainty is skin in the game. So despite my ego resistance to sharing my journey, I'd like to start sharing more of it. Because I'd like you to see me not just for who I become, but for who I am, in it’s entirety. 
 

@@ -4,7 +4,7 @@ title: Useful first, passionate second
 description: What I learned about following my passion, and what I'd suggest you do instead.
 
 quote: |
-  Related advice from Scott Adams, the creator of Dilbert):
+  Related advice from Scott Adams, the creator of Dilbert:
   <p></p>
   Everyone has at least a few areas in which they could be in the top 25% with some effort. In my case, I can draw better than most people, but I’m hardly an artist. And I’m not any funnier than the average standup comedian who never makes it big, but I’m funnier than most people. The magic is that few people can draw well and write jokes. It’s the combination of the two that makes what I do so rare. And when you add in my business background, suddenly I had a topic that few cartoonists could hope to understand without living it.
   <p></p>
@@ -21,7 +21,7 @@ There's this aura in college that you should first study what you like---an aura
 
 What undergraduate wouldn't feel more capable studying the intricacies of persuasion, willpower, and Marshmallow Tests more than the idea of trying to implementing a chat server? Naturally, when given the decision, I drifted towards studying psychology rather than programming; I was more passionate about it.
 
-The effects of passion became clear when I tried to start my first startup. A couple months in, my co-founders and I sat down to discuss equity. One was a programmer. The other a good communicator. As for me? An introvert unable to describe what he brought to the table. Without any concrete skills, all I was, was a passionate idea guy; as rare and valuable as your average student.
+The effects of passion became clear when I tried to start my first startup. A couple months in, my co-founders and I sat down to discuss equity. One was a programmer, the other a good writer and public speaker. As for me? An introvert unable to describe what he brought to the table. Without any concrete skills, all I was, was a passionate idea guy; as rare and valuable as your average student.
 
 From that point forward, I made the resolution to use any remaining time, inside or outside of class, to become useful---to develop concrete skills. Only then, would I worry about passion.
 

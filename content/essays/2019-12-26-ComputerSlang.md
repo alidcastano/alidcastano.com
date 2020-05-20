@@ -47,7 +47,7 @@ There's various factors that go into making code shorter, such as [the simplicit
 
 Code, after all, is an evolving language. We come to understand it based upon mutually understood words and functions, but overtime, we make it shorter--with slang. Programming syntax is standardized computer slang. Some is universally known amongst programmers, some only exists in certain programming languages or styles or programming, and even less known are those which are specific to libraries and applications themselves. 
 
-As the standard, a programming language to be as terse as possible. Such terse code might be harder to read at first glance, but a program shouldn't be written for someone who'll superficially look at it, but for someone who'll take the time to fully understand it and [hold it in their head](http://www.paulgraham.com/head.html). So, rather than embracing readability, embrace succinctness.
+As the standard, a programming language should be as terse as possible. Such terse code might be harder to read at first glance, but a program shouldn't be written for someone who'll superficially look at it, but for someone who'll take the time to fully understand it and [hold it in their head](http://www.paulgraham.com/head.html). So, rather than embracing readability, embrace succinctness.
 
 What's wonderful about a computer is it'll speak any language you throw at it so long as the code compiles. So, runtime errors aside, the ultimate test of your code is the program itself. You don't have to convince a programmer to read your code if your application already motivates them for you.
 
