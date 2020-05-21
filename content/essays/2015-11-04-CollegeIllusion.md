@@ -1,8 +1,7 @@
 ---
 title: The college dream (and illusion)
-
+description: Examining the necessity of college.
 image: coin-trick.jpg
-
 quote: |
     "Formal education will make you a living; self-education will make you a fortune."
     - Jim Rohn
