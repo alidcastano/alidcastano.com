@@ -1,6 +1,7 @@
 ---
 title: Decomplecting abstraction
 description: Exploring the difference between concretions and abstractions.
+draft: true
 quote: | 
   There is no abstract art. You must always start with something. Afterward you can remove all traces of reality.
   <br> - Pablo Picasso
@@ -67,4 +68,4 @@ Imagine, for example, that you need to serialize user data in your Clojure API. 
 
 This sort of mindless concretion, nonetheless, is prevalent, and it's one I've been particularly vulnerable to. Specially in pseudo functional languages like Javascript. To an untrained eye, `allUsers()` reads nicer than `map(user)`. To use an abstraction without a concretion, you have to truly value reusability over declarativeness.
 
-Prior to writing this, I hadn't realized that coding involved some trade-off between the two. Abstractions or concretions; reusability or declarativeness. That implicit choice, it seems, is why good abstractions are hard to preserve and fully use. There's this knee-jerk reaction, for example, to seeing a string of SQL dangling in your codebase, that you have to manually override before you mindlessly reach for some military grade ORM. Upfront are all the concretions it makes easy, hidden, are the abstractions it obscures.
+Prior to writing this, I hadn't realized that coding involved some trade-off between the two. Abstractions or concretions; reusability or declarativeness. That implicit choice, it seems, is why good abstractions are hard to preserve and fully use. There's this knee-jerk reaction, for example, to seeing a string of SQL dangling in your codebase, that you have to manually override before you mindlessly reach for some military grade ORM. Upfront are all that concretions it makes easy, hidden, are the abstractions they obscure.
