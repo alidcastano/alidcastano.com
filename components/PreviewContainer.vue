@@ -24,6 +24,8 @@ export default {
 .preview-content
   margin-top: 1rem
   margin-bottom: -2rem
+  padding-bottom: 2rem
+  overflow-y: scroll
   li
     min-height: 2.5rem
     padding-bottom: .5rem
