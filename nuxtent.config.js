@@ -9,6 +9,10 @@ module.exports = {
       page: '/_poem',
       permalink: 'p/:slug'
     }],
+    ['adages', {
+      page: '/_adages',
+      permalink: ':slug'
+    }],
     ['code', {
       // page: '/_code', // unused.
       isPost: false
