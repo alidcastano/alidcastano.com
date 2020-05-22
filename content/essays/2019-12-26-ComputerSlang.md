@@ -38,7 +38,7 @@ What learning Clojure helped me realize, is that often when we fell code terse c
 
 ### (measure :lang)
 
-What's the purpose of a programming language? In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
+So is it better for code to be more or less terse? How do you measure a programming language? In a [hackernews post announcing Bel](http://paulgraham.com/bel.html), a Lisp dialect Paul Graham has been working on, he was asked what problem his language intended to solve. He responded:
 
 > I think the point of a high-level language is to make your programs shorter. All other things (e.g. libraries) being equal, language A is better than language B if programs are shorter in A.
 

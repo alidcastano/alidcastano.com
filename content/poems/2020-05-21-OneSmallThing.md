@@ -1,5 +1,5 @@
 ---
-title: One Small Thing
+title: one small thing
 ---
 
 One thoughtful gesture is all it takes to start a friendship. 
