@@ -1,5 +1,5 @@
 <template lang="pug">
-EntryPost(:entry="adage" imagePath="adages")
+EntryPost(:entry="truth" imagePath="truths")
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import EntryPost from '~/components/EntryPost'
 
 export default {
   asyncData: async ({ app, route }) => ({
-    adage: await app.$content('/adages').get(route.path)
+    truth: await app.$content('/truths').get(route.path)
   }),
 
   components: {

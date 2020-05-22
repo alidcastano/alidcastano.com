@@ -25,7 +25,6 @@ export default {
       this.projects
       .forEach(project => {
         const [created] = project.created.split('-')
-        console.log(created)
         if (!projects.has(created)) projects.set(created, [project])
         else projects.get(created).push(project)
       })

@@ -1,10 +1,10 @@
 <template lang="pug">
 PreviewLatestTab(
-  :entries="adages"
+  :entries="truths"
   heading="What I've found to be true, succinctly"
-  contentPath="/adages"
-  archivePath="/archives/adages"
-  archiveLabel="See all adages"
+  contentPath="/truths"
+  archivePath="/archives/truths"
+  archiveLabel="See all truths"
 )
 </template>
 
@@ -13,8 +13,8 @@ import PreviewLatestTab from '~/components/PreviewLatestTab'
 
 export default {
   asyncData: async ({ app }) => ({
-    adages: (
-      await app.$content('/adages')
+    truths: (
+      await app.$content('/truths')
       .query({ exclude: 'body' })
       .getAll()
     ).filter(entry => !entry.draft).slice(0, 7)
