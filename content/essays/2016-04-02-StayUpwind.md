@@ -17,7 +17,7 @@ So we spent the next three weeks trying to find a technical co-founder. We were 
 
 I came out of that experience with the uncomfortable realization: as a non-technical entreprenuer, the largest factor to my success was entirely dependent on someone else.
 
-"Should I learn to code?" It was the first time I had entertained the question. The only thing I knew about programming courses was how hard and time-consuming it was, because everyone it CIS classes complained about it. And all I could picture was the kid who started playing with computers when he was 9. I could never compete with him.  And lingering in the back of my mind was the fact that I didn't take calculus, ergo, I sucked at math and programming, I thought, was all about math.
+"Should I learn to code?" It was the first time I had entertained the question. The only thing I knew about programming courses was how hard and time-consuming it was, because everyone it CIS classes complained about it. The type of students I pictured in those classes, are the kids who started playing with computers when they were 9. I could never compete with them. And lingering in the back of my mind was the fact that I didn't take calculus, ergo, I sucked at math and programming, I thought, was all about math.
 
 Amongst these concerns, was the lingering thought of a passage I read in Paul Graham's [What You'll Wish You'd Known](http://www.paulgraham.com/hs.html):
 
