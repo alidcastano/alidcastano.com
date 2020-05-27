@@ -1,12 +1,6 @@
 ---
 title: The struggle paradox
-
 description: Why founders share their success but not their journey.
-
-quote: |
-  Sing the song that only you can sing, write the book that only you can write, build the product that only you can build... live the life that only you can live. 
-  <br> - Naval Ravikant
-
 ---
 
 Whenever I discover a startup I like, I look into its story. The founder in me wants to know: what it was like in the beginning?  Ideally, I’d like to find a video of its founders when they were young or some essay they wrote sharing their journey—as it was happening. But instead, what I usually find a is a key-note speech they gave recollecting their story. The ups and down are there, but it doesn’t fully capture what it was like. The only artifact we end up with is a picture of them in their twenties, smiling, next to some extinct 1980s desktop computer.
@@ -25,7 +19,7 @@ In theory, the merit in sharing one’s struggle should be determined by one’s
 
 What’s most unsettling about this question, isn’t that the answer might be no—that would at least give me peace of mind. But that there’s no way to truly know the answer without living through the truth of it. So as long as I believe in what I’m working on, it’s pointless to question my ability to do it.
 
-Yet, in preemptively sharing my journey, that’s exactly what I’m asking someone to do. Implicit in what I’m sharing is the question: *is he actually capable of doing it?* So that’s what makes sharing the journey hard: it forces me to slow down and openly embrace this uncertainty. 
+Yet, in preemptively sharing my journey, that’s exactly what I’m asking someone to do. Implicit in what I’m sharing is the question, *can he do it?* So that’s what makes sharing the journey hard: it forces me to slow down and openly embrace this uncertainty. 
 
-But slowing down to capture these details and share them is what'll make the experience real years from now. Being open in the face of uncertainty is skin in the game. So despite my ego resistance to sharing my journey, I'd like to start sharing more of it. Because I'd like you to see me not just for who I become, but for who I am, in it’s entirety. 
+But slowing down to capture these details and share them is what'll make the experience real years from now. So despite my ego resistance to sharing my journey, I'd like to start sharing more of it. Because I'd like you to see me not just for who I become, but for who I am, in it’s entirety. 
 
