@@ -1,7 +1,9 @@
 ---
 title: Useful first, passionate second
-
 description: What I learned about following my passion, and what I'd suggest you do instead.
+quote: | 
+  Don't follow your passion but let your passion follow you in your quest to become really good at what you do.
+  <br> - Cal Newport
 ---
 
 There's this aura in college that you should first study what you like---an aura that many students are suffocated by. I only know, because I've gotten a good whiff of its effects myself.
