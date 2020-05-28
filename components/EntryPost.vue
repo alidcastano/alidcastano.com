@@ -7,10 +7,6 @@ ContentContainer
   section.entry-body(slot="content" :style="overrideMargin")
     div(v-html="entry.body")
     div.discuss-link(v-if="entry.twitter") Discuss on 
-      a(v-if="entry.twitter"
-        :href="`https://twitter.com/alidlorenzo/${entry.twitter}`"
-        target="_blank") 
-        | Twitter
       a(v-if="entry.reddit"
         :href="`https://reddit.com/${entry.reddit}`")
         | Reddit 

@@ -1,7 +1,7 @@
 ---
 title: Decomplecting abstraction
 description: Exploring the difference between concretions and abstractions.
-draft: true
+reddit: r/Clojure/comments/gscsnh/decomplecting_abstraction/
 quote: | 
   There is no abstract art. You must always start with something. Afterward you can remove all traces of reality.
   <br> - Pablo Picasso
@@ -9,9 +9,9 @@ quote: |
 
 One pet peeve I've always had about Javascript code is the rampant use of Classes. Even when Javascript was the only programming language I knew, I'd go out of my way to use factory functions instead. I had some notions of why (i.e. Classes are less composable), but honestly, it felt more like a nitpick than a sound technical decision.
 
-Now, though, I have an explanation for my wariness of classes. It's one lesson (of many) that I picked up from listening to Rich Hickey's, the creator of Clojure, conference talks.
+Now, though, I have an explanation for my wariness towards Classes. It's one lesson (of many) that I picked up from listening to Rich Hickey's, the creator of Clojure, conference talks.
 
-In Hickey's talk, [Values of Values](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/ValueOfValues.md), where he discusses "What makes a value good?", he mentions how programming constructs that rely on specificity lead to excess code: 
+In Hickey's talk, [Values of Values](https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/ValueOfValues.md), where he discusses "What makes a value good?," he mentions how programming constructs that rely on specificity lead to excess code: 
 
 > These ideas, the notions of values are generic. And I think it's something that we don't think about often enough in our programming designs and our systems, the actual cause of specificity. We love specificity. We use Java. Every new idea gets a new class. Every new thing gets a new thing. What does that cause to happen? We get this explosion of code... Objects that were supposed to support reuse do the exact opposite thing especially in typed languages. You get very little reuse because you make a new thing every time, and what does more code mean? More code equals more bugs. Right away.
 
@@ -29,10 +29,9 @@ The answers to the above questions weren't immediately obvious to me, but while 
 
 In one particular case, I was creating an API in Clojure that leveraged AWS services. I needed a way to get a specific service's id from its name, so I created a function, `sid`, for doing that. But writing code like `(sid :auth-pool)` felt like I'd be hard-coding names everywhere, so I created a specific function for retrieving this service's id, that way I could write `(auth-pool-id)` instead. But as I did this for my second and third service, I realized my mistake: by trying to avoid explicitly using the name of the resource (which in Clojure is idiomatic to do with keywords), I was committing instead to writing a new function for each service, and these functions weren't generalizing any behavior, just wrapping a existing utility (`sid`). Rather than code reuse, what I was giving myself was duplication.
 
-Turns out, what I disliked about Classes is more general to programming: the tendency to make code too specific, with the intention of facilitating use, but, without considering the costs of doing so. Classes, with their interfaces and methods, just encourage specificity, but you can very well overdo it with functions too, as I mistakenly have.
+Turns out, what I disliked about Classes is more general to programming: the tendency to make code too specific, with the intention of facilitating use, but, without considering the costs of doing so. Classes, with their interfaces and methods, just encourage specificity, but you can very well be overdone with functions, too.
 
-That's not to say that concretions are always bad. There's cases where extra specificity is warranted. In a Javascript codebase I worked on, for example, a check for `organization.parentId === null` was written in a few places.
-From the code I can infer it's checking for any organization without a parent. Still, I chose to turn that specification into a function, that way I could write `isRootOrganization(org)` instead. Now, one can be unaware of what makes an organization the root yet still know whether it is or isn't one. We're communicating at a higher, more concrete level. 
+There are cases, however, where I feel extra specificity is warranted. In a Javascript codebase I worked on, for example, a check for `organization.parentId === null` was written in a few places. From the code I can infer it's checking for any organization without a parent. Still, I chose to turn that specification into a function, that way I could write `isRootOrganization(org)` instead. Now, one can be unaware of what makes an organization the root yet still know whether it is or isn't one. We're communicating at a higher, more concrete level. 
 
 Imagine now, that other hierarchical entities appeared in the codebase. They all share the same property value: their `parentId` is `null`. So rather than a specific `isRootOrganization` function, we generalize this specification to all entities; now we can write `isRoot(entity)` instead. We're communicating at a higher, more abstract level.
 
@@ -44,9 +43,9 @@ Can a concretion itself be considered an abstraction? Typically, I would have th
 
 For a dieter, does 'eating healthy' mean eating nutritiously or eating in a caloric deficit? For weight loss, one can eat junk food yet stay in a caloric deficit and lose weight. Yet, overeating a plate of vegetables is harder than overeating a bag of skittles. So, while 'eating healthy' doesn't describe the cause of weight loss (being in a calorie deficit), it does describe the process that most effortlessly leads to it (eating filling, nutritious meals).
 
-Likewise, for a programmer, does 'abstraction' mean specifying some behavior or generalizing some pattern? The most notable code reuse comes from logic that's generalized across a codebase, but once logic is generalized, it gets used in disparate places so its implementation is harder to change. Hence why it's more practical to be specific first, until the patterns among them are concrete and easy to generalize. So, while 'abstraction' doesn't describe any act of extracting logic into a function, it does describe the process that most naturally leads to it (specifying behavior, then generalizing it).
+Likewise, for a programmer, does 'abstraction' mean specifying some behavior or generalizing some pattern? The most notable code reuse comes from logic that's generalized across a codebase, but once logic is generalized, it's used in disparate places so its implementation is harder to change. Hence why it's more practical to be specific first, until the patterns among them are concrete and easy to generalize. So, while 'abstraction' doesn't describe any act of extracting logic into a function, it does describe the process that most naturally leads to it (specifying behavior, then generalizing it).
 
-To fully decomplect abstraction from concretion, I'd help to explicitly define them as two different steps, or considerations, in the coding process:
+To fully decomplect abstraction from concretion, I'd help to explicitly define them as two different considerations in the coding process:
 
 1) Concretion: Some logic is repeated in multiple places, in the same way--should we specify it in a function?
 
@@ -70,4 +69,6 @@ Imagine, for example, that you need to serialize user data in your Clojure API. 
 
 This sort of mindless concretion, nonetheless, is prevalent, and it's one I've been particularly vulnerable to. Especially in pseudo functional languages like Javascript. To an untrained eye, `allUsers()` reads nicer than `map(user)`. To use an abstraction without a concretion, you have to truly value reusability over declarativeness.
 
-Prior to writing this, I hadn't realized that coding involved some trade-off between the two. Abstractions or concretions; reusability or declarativeness. That implicit choice, it seems, is why good abstractions are hard to preserve and fully use. There's this knee-jerk reaction to seeing a string of SQL dangling in your codebase, that you have to manually override before you mindlessly reach for some military grade ORM. Upfront are the concretions some library has made easy, hidden, are the abstractions it obscured.
+I didn't realize until now that coding involves some trade-off between the two--abstractions or concretions; reusability or declarativeness. That implicit choice, it seems, is why good abstractions are hard to preserve and fully use. There's this knee-jerk reaction to seeing a string of SQL dangling in your codebase, that you have to manually override before you mindlessly reach for some military grade ORM. When a library's code is focused on concretions, upfront are all the specific features it has made made easy, hidden, are the abstractions it obscured.
+
+The word 'trade-off', though, doesn't seem to capture the essence of this choice. Concretions, for example, are a natural choice when you can't yet spot the proper abstraction. You're not giving up one to get the other, you're *giving* into one to get to the other. Concretions and abstractions are the yin and yang of coding. In the beginning you make concretions to get away from implementation details; at the end you make abstractions to get away from concretions; until the abstractions themselves feel like implementation details and the process repeats, with concretions, once again, until we find better abstractions. 
