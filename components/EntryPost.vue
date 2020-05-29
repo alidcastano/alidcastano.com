@@ -6,13 +6,9 @@ ContentContainer
 
   section.entry-body(slot="content" :style="overrideMargin")
     div(v-html="entry.body")
-    div.discuss-link(v-if="entry.twitter") Discuss on 
-      a(v-if="entry.reddit"
-        :href="`https://reddit.com/${entry.reddit}`")
+    div.discuss-link(v-if="entry.reddit") Discuss on 
+      a(:href="`https://reddit.com/${entry.reddit}`")
         | Reddit 
-      a(v-if="entry.hackernews"
-        :href="`https://news.ycombinator.com/${entry.hackernews}`")
-        | Hackernews
 
   div.entry-closer(slot="closer")
     img.entry-image(v-if="entry.image" :src="`/img/${imagePath}/${entry.image}`")
