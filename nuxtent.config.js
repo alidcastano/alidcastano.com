@@ -16,7 +16,7 @@ module.exports = {
   ],
   api: {
     baseURL: process.env.NODE_ENV === 'production'
-      ? 'https://alidlo.com'
-      : 'http://localhost:4444'
+      ? 'https://alidcastano-blog.herokuapp.com'
+      : 'http://localhost:9999'
   }
 }
